@@ -85,16 +85,16 @@ namespace PungusSouls
             // Format: new("AssetBundleName", "PrefabName", "FolderName");
             BuildPiece Lanterny = new("wep", "Lantern");
 
-            Lantern.Name.English("Arcane Lantern"); // Localize the name and description for the building piece for a language.
-            Lantern.Description.English("Blacksmith Altar Extension");
-            Lantern.RequiredItems.Add("Resin", 20, true); // Set the required items to build. Format: ("PrefabName", Amount, Recoverable)
-            Lantern.RequiredItems.Add("Iron", 10, true);
-            Lantern.RequiredItems.Add("ElderBark", 10, true);
-            Lantern.RequiredItems.Add("TwinklingTitanite", 15, true);
-            Lantern.Category.Add(PieceManager.BuildPieceCategory.Crafting);
-            Lantern.Crafting.Set("BlacksmithAltar"); // Set a crafting station requirement for the piece.
-            Lantern.Extension.Set("BlacksmithAltar", 2);
-            Lantern.Snapshot();
+            Lanterny.Name.English("Arcane Lantern"); // Localize the name and description for the building piece for a language.
+            Lanterny.Description.English("Blacksmith Altar Extension");
+            Lanterny.RequiredItems.Add("Resin", 20, true); // Set the required items to build. Format: ("PrefabName", Amount, Recoverable)
+            Lanterny.RequiredItems.Add("Iron", 10, true);
+            Lanterny.RequiredItems.Add("ElderBark", 10, true);
+            Lanterny.RequiredItems.Add("TwinklingTitanite", 15, true);
+            Lanterny.Category.Add(PieceManager.BuildPieceCategory.Crafting);
+            Lanterny.Crafting.Set("BlacksmithAltar"); // Set a crafting station requirement for the piece.
+            Lanterny.Extension.Set("BlacksmithAltar", 2);
+            Lanterny.Snapshot();
 
             BuildPiece Lantern1 = new("wep", "Lantern1");
 
