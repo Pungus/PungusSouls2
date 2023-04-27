@@ -1056,17 +1056,18 @@ namespace PungusSouls
                         ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Trident_AOE", false);
                         ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "DragonSlayer_bow_projectile", false);*/
                         ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "chest1", false);
-                        /*PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "SK_Spawner", false);
-                        PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "OrnsteinSpawner", false);
-                        PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "BK_Spawner", false);*/
-                        /*PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "HollowSoldier", false);*/
-                        /*PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "HollowSoldierSpawner", false);
-                        PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "BlackKnight_Spawn", false);
-                        PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Spawner_AsylumDemon", false);*/
-                        /*PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Gwyn_SpawnFire", false);
-                        PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "OdinFire1", false);
-                        PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "DragonGreatSword_Projectile", false);*/
-                        var mixerRef = ZNetScene.instance.GetPrefab("sfx_battleaxe_swing_wosh")?.GetComponentsInChildren<AudioSource>();
+            /*PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "SK_Spawner", false);
+            PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "OrnsteinSpawner", false);
+            PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "BK_Spawner", false);*/
+            /*PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "HollowSoldier", false);*/
+            /*PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "HollowSoldierSpawner", false);
+            PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "BlackKnight_Spawn", false);
+            PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Spawner_AsylumDemon", false);*/
+            /*PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Gwyn_SpawnFire", false);
+            PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "OdinFire1", false);
+            PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "DragonGreatSword_Projectile", false);*/
+            var mixerRef = Resources.FindObjectsOfTypeAll<GameObject>().ToList().Find(x => x.name == 
+            "sfx_battleaxe_swing_wosh")!.GetComponentsInChildren<AudioSource>();
 
             if (mixerRef != null && mixerRef.Length > 0)
             {
@@ -1076,7 +1077,7 @@ namespace PungusSouls
             }
 
                             /*var firelinkshrine_sfx = PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "firelinkshrine_sfx", false);
-                            firelinkshrine_sfx.GetComponentInChildren<AudioSource>().outputAudioMixerGroup =AudioMan.instance.*/;
+                            firelinkshrine_sfx.GetComponentInChildren<AudioSource>().outputAudioMixerGroup =AudioMan.instance.;*/
             #endregion
             #region CreatureManager Example Code
 
