@@ -68,9 +68,6 @@
     <Reference Include="BepInEx">
       <HintPath>$(GamePath)\BepInEx\core\BepInEx.dll</HintPath>
     </Reference>
-    <Reference Include="BlacksmithTools">
-      <HintPath>F:\ValheimSource\Obl\BlacksmithTools.dll</HintPath>
-    </Reference>
     <Reference Include="LocalizationManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\PungusPieces\Libs\LocalizationManager.dll</HintPath>
@@ -94,7 +91,7 @@
     </Reference>
     <Reference Include="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Valheim\valheim_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Valheim\unstripped_corlib\UnityEngine.AudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>$(GamePath)\unstripped_corlib\UnityEngine.CoreModule.dll</HintPath>
@@ -122,6 +119,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="assets\ClearArea.cs" />
     <Compile Include="Managers\CreatureManager.cs" />
     <Compile Include="Managers\ItemManager.cs" />
     <Compile Include="Managers\LocationManager.cs" />
@@ -135,12 +133,8 @@
     <Compile Include="VersionHandshake.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="assets\wep" />
     <EmbeddedResource Include="assets\souls" />
-    <EmbeddedResource Include="assets\anims" />
-    <EmbeddedResource Include="assets\location2" />
     <None Include="packages.config" />
-    <EmbeddedResource Include="translations\Spanish.yml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
@@ -152,9 +146,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Libs\ItemManager.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Libs\LocalizationManager.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Libs\LocationManager.dll">
@@ -174,6 +165,9 @@
     <Content Include="Thunderstore\icon.png" />
     <Content Include="Thunderstore\manifest.json" />
     <Content Include="UpdateManifest.ps1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="translations\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\ILRepack.Lib.MSBuild.Task.2.0.18.2\build\ILRepack.Lib.MSBuild.Task.targets" Condition="Exists('packages\ILRepack.Lib.MSBuild.Task.2.0.18.2\build\ILRepack.Lib.MSBuild.Task.targets')" />

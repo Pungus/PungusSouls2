@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 4266959340
+CRC: 1296530139
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e0eb928cf113d859f4ed1dabba7516bf
+    Hash: 2facb05f894ba38a3d91fbcf1b68c8ca
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 9846f2bb1e3ab5aea74a3f10ce0d0550
+    Hash: 9b917e59c1d0da4f5d451c86a5cd984e
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -54,6 +54,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 825357479, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
+  Script: {fileID: 927819712, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
   Script: {fileID: 1521249158, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
   Script: {fileID: 1541706127, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
@@ -64,11 +66,19 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 2094620348, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
+  Script: {fileID: 2053127972, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
+  Script: {fileID: 1516789100, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
   Script: {fileID: 2140874873, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
-  Script: {fileID: 1404409730, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+  Script: {fileID: 1426176784, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
-  Script: {fileID: 69470131, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+  Script: {fileID: 712945444, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 1404409730, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
   Script: {fileID: 647644853, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
@@ -76,7 +86,17 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 1137906148, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
+  Script: {fileID: -1383431051, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
   Script: {fileID: 1790797106, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
+  Script: {fileID: 963225042, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
+  Script: {fileID: -347224168, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
+  Script: {fileID: -1266444067, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
+  Script: {fileID: -1855997503, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
   Script: {fileID: -1421768954, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
@@ -90,13 +110,29 @@ ClassTypes:
 - Class: 114
   Script: {fileID: -1031772151, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
+  Script: {fileID: -843416108, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
+  Script: {fileID: -2077285929, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
+  Script: {fileID: 69470131, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
   Script: {fileID: 1282597392, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
+  Script: {fileID: -1190376124, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
   Script: {fileID: 1345532120, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
+  Script: {fileID: -179248876, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
+  Script: {fileID: -201937006, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
+  Script: {fileID: -891010968, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
   Script: {fileID: -415060008, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
   Script: {fileID: -917656959, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 134
@@ -107,7 +143,13 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 137
   Script: {instanceID: 0}
+- Class: 154
+  Script: {instanceID: 0}
+- Class: 156
+  Script: {instanceID: 0}
 - Class: 164
+  Script: {instanceID: 0}
+- Class: 165
   Script: {instanceID: 0}
 - Class: 198
   Script: {instanceID: 0}
@@ -115,7 +157,15 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 205
   Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
 - Class: 213
+  Script: {instanceID: 0}
+- Class: 218
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
   Script: {instanceID: 0}
 - Class: 241
   Script: {instanceID: 0}
@@ -123,11 +173,19 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 245
   Script: {instanceID: 0}
+- Class: 1953259897
+  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
 - AssemblyName: assembly_valheim
   ClassName: Attack
 - AssemblyName: assembly_valheim
   ClassName: CharacterAnimEvent/Foot
+- AssemblyName: assembly_valheim
+  ClassName: CharacterDrop/Drop
 - AssemblyName: assembly_valheim
   ClassName: DropTable
 - AssemblyName: assembly_valheim
@@ -136,6 +194,8 @@ SerializeReferenceClassIdentifiers:
   ClassName: EffectList
 - AssemblyName: assembly_valheim
   ClassName: EffectList/EffectData
+- AssemblyName: assembly_valheim
+  ClassName: FootStep/StepEffect
 - AssemblyName: assembly_valheim
   ClassName: HitData/DamageModPair
 - AssemblyName: assembly_valheim
@@ -150,42 +210,115 @@ SerializeReferenceClassIdentifiers:
   ClassName: ItemDrop/ItemData/SharedData
 - AssemblyName: assembly_valheim
   ClassName: LevelEffects/LevelSetup
+- AssemblyName: assembly_valheim
+  ClassName: SpawnArea/SpawnData
 Assets:
 - Assets/test/Dark Souls - Giant Dad/GrassCrestShield1.prefab
 - Assets/test/DS - silver knight/BlackKnightUGS1.prefab
 - Assets/test/Taurus Demon/sfx_taurus_weaponhit1.prefab
 - Assets/test/Dark Souls - Giant Dad/BlackFlame.prefab
+- Assets/wep/DarkSword.prefab
 - Assets/test/DS - silver knight/BlackKnightHalberd2.prefab
-- Assets/1Proj/export/firelinkshrine_sfx.prefab
+- Assets/test/Andre/sfx_Andre_greeting1.prefab
 - Assets/test/BlackKnight.prefab
-- Assets/test/Asylum Demon/DemonGreatHammerSlam.prefab
+- Assets/test/Andre/sfx_Andre_bye1.prefab
 - Assets/wep/Silver Knight Spear/SilverKnightSpear2.prefab
-- Assets/test/Taurus Demon/TaurusWep.prefab
-- Assets/test/Asylum Demon/DemonGreatHammer1.prefab
+- Assets/wep/Glordsword.prefab
+- Assets/wep/dragontooth.prefab
 - Assets/test/DS - silver knight/DragonSlayerGreatBow1.prefab
-- Assets/PrefabInstance/MushroomUnarmed.prefab
+- Assets/wep/SunlightSword.prefab
+- Assets/test/BlackKnight ds3/FX_BlackKnight_Death.prefab
 - Assets/wep/Silver Knight Shield/SilverKnightShield1.prefab
-- Assets/test/Taurus Demon/TaurusDemon.prefab
-- Assets/test/DS - silver knight/BlackKnightHalberd3.prefab
 - Assets/wep/Zweihander/ChaosZweihander1.prefab
-- Assets/test/Hollow Soldier/HollowSoldier.prefab
-- Assets/test/DS - silver knight/BlackKnightUGS2.prefab
 - Assets/test/DS - silver knight/BlackKnightGreatAxe2.prefab
-- Assets/wep/Silver Knight Spear/SilverKnightSpear1.prefab
-- Assets/test/Dark Souls - Giant Dad/BlackFlame_AOE.prefab
-- Assets/test/Taurus Demon/TaurusWep2.prefab
+- Assets/wep/DragonSlayerSpear.prefab
+- Assets/wep/Dragonslayer Greatbow/crosshair_bow.prefab
+- Assets/test/Andre/sfx_Andre_talk1.prefab
+- Assets/test/bonfire/Bonefire.prefab
 - Assets/Mega Fantasy Props Pack/Prefabs/Storage/chest1.prefab
-- Assets/test/Taurus Demon/TaurusWep1.prefab
+- Assets/wep/Darkmoon Bow/DarkMoonBow.prefab
 - Assets/test/DS - silver knight/BlackKnightGreatAxe1.prefab
-- Assets/test/DS - silver knight/SilverKnight.prefab
-- Assets/test/Dark Souls - Giant Dad/Giantdad.prefab
+- Assets/wep/lantern.prefab
+- Assets/wep/Dark Silver Tracer/DarkSilverTracer.prefab
+- Assets/wep/Great Lord Greatsword/GreatLordGreatSword.prefab
+- Assets/wep/Channeler's Trident/ChannelerTrident.prefab
+- Assets/test/LightningSpear_Projectile.prefab
+- Assets/wep/Dragonslayer Greatbow/DragonSlayerGreatBow.prefab
+- Assets/wep/Silver Knight Straight Sword/SilverKnightSword1.prefab
+- Assets/wep/Shotel/Shotel.prefab
+- Assets/test/Taurus Demon/FX_Taurus_Hit.prefab
+- Assets/test/Taurus Demon/SFX_Taurus_Alert1.prefab
+- Assets/1Proj/export/firelinkshrine_sfx.prefab
+- Assets/wep/Quelaag's Furysword/FurySword.prefab
+- Assets/wep/Moonlight Butterfly Horn/MLHorn.prefab
+- Assets/test/Asylum Demon/DemonGreatHammerSlam.prefab
+- Assets/wep/Abyss Greatsword/AbyssGreatsword.prefab
+- Assets/1Proj/export/New Terrain1.asset
+- Assets/wep/Murakumo/Murakumo.prefab
+- Assets/wep/MLgreatsword.prefab
+- Assets/test/Hollow Soldier/SFX_Hollow_Idle.prefab
+- Assets/wep/Greatsword of Artorias (Cursed)/CursedGreatsword.prefab
+- Assets/test/Altar of Sunlight/Nameless king statue/NamelessStatue.prefab
+- Assets/test/Taurus Demon/TaurusDemon.prefab
+- Assets/wep/GraveLord_AOE.prefab
+- Assets/wep/Washing Pole/washingpole.prefab
 - Assets/test/Mushroom/GiantMushroom.prefab
-- Assets/test/DS - silver knight/BlackKnightHalberd1.prefab
-- Assets/test/Asylum Demon/DemonGreatHammer2.prefab
 - Assets/test/Taurus Demon/sfx_taurus_attack1.prefab
 - Assets/wep/Zweihander/ChaosZweihander.prefab
-- Assets/test/Asylum Demon/Slam.prefab
+- Assets/wep/Havel's Greatshield/HavelGreatShield.prefab
+- Assets/MonoBehaviour/SE_GrassShield.asset
+- Assets/wep/Mask of the Father/MaskOfFather.prefab
+- Assets/wep/Black Knight Shield/BlackKnightShield.prefab
+- Assets/wep/SunArmor/SunChest.prefab
+- Assets/creatures/Trident_AOE.prefab
+- Assets/wep/Drake Sword/DrakeSword.prefab
+- Assets/wep/Dragon King Greataxe/DragonKingGreatAxe.prefab
+- Assets/wep/grasscrestshield/GrassCrestShield.prefab
+- Assets/wep/BlackKnightUGS.prefab
+- Assets/wep/Dragon Greatsword/DragonGreatSword.prefab
+- Assets/test/Taurus Demon/TaurusWep.prefab
+- Assets/test/Asylum Demon/DemonGreatHammer1.prefab
+- Assets/PrefabInstance/MushroomUnarmed.prefab
+- Assets/wep/Channeler's Trident/ProjectileTrident.prefab
+- Assets/test/Taurus Demon/FX_Taurus_Dead.prefab
+- Assets/wep/Black Iron Greatshield/BlackIronShield.prefab
+- Assets/wep/Smough's Hammer/SmoughHammer.prefab
+- Assets/wep/Gold Tracer/GoldTracer.prefab
+- Assets/test/Taurus Demon/SFX_Taurus_Idle1.prefab
+- Assets/test/DS - silver knight/BlackKnightHalberd3.prefab
+- Assets/wep/Silver Knight Spear/SilverKnightSpear1.prefab
+- Assets/test/Dark Souls - Giant Dad/BlackFlame_AOE.prefab
+- Assets/test/DS - silver knight/BlackKnightHalberd1.prefab
+- Assets/wep/sunshield1.prefab
+- Assets/wep/Black Knight Halberd/BlackKnightHalberd.prefab
+- Assets/wep/Artorias GreatShield/ArtoriasGreatshield.prefab
+- Assets/test/Asylum Demon/DemonGreatHammer2.prefab
+- Assets/1Proj/Gwyn_SpawnFire.prefab
+- Assets/1Proj/OdinFire1.prefab
+- Assets/wep/Black Knight Sword/BlackKnightSword.prefab
+- Assets/wep/Priscilla's Dagger/Lifesteal.asset
 - Assets/test/Asylum Demon/AsylumDemon.prefab
-- Assets/wep/Silver Knight Straight Sword/SilverKnightSword1.prefab
-Dependencies:
-- C:/Users/Jerem/source/repos/PungusSouls/assets/wep
+- Assets/1Proj/DragonGreatSword_Projectile.prefab
+- Assets/test/Hollow Soldier/sfx_Hollow_Attack.prefab
+- Assets/test/Lantern/Lantern1.prefab
+- Assets/test/Hollow Soldier/SFX_Hollow_Alert.prefab
+- Assets/wep/BlackKnightGreatAxe/BlackKnightGreatAxe.prefab
+- Assets/ScannedRocks/RockPrefabs_PBR/TwinklingTitanite.prefab
+- Assets/wep/ArcaneStone.prefab
+- Assets/wep/Channeler's Trident/TridentBuff.asset
+- Assets/wep/MLGS/MLGS_Projectile.prefab
+- Assets/1Proj/export/FireLinkShrine.prefab
+- Assets/wep/Demon's Great Hammer/DemonGreatHammer.prefab
+- Assets/test/DS - silver knight/BlackKnightUGS2.prefab
+- Assets/wep/ArtGS.prefab
+- Assets/test/Hollow Soldier/HollowSoldier.prefab
+- Assets/wep/Priscilla's Dagger/DaggerPrisc.prefab
+- Assets/test/Taurus Demon/TaurusWep2.prefab
+- Assets/wep/Manus Catalyst/ManusCatalyst.prefab
+- Assets/test/Taurus Demon/TaurusWep1.prefab
+- Assets/test/Andre/BlacksmithAltar.prefab
+- Assets/test/Dark Souls - Giant Dad/Giantdad.prefab
+- Assets/wep/Beatrice's Catalyst/StaffWood.prefab
+- Assets/wep/Gargoyle Tail Axe/GargoyleAxe.prefab
+- Assets/wep/Greatsword/BerserkGreatsword.prefab
+Dependencies: []

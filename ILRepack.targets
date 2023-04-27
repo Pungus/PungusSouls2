@@ -10,7 +10,6 @@
             <!-- <InputAssemblies Include="$(OutputPath)\SkillManager.dll" /> -->
             <!-- <InputAssemblies Include="$(OutputPath)\LocationManager.dll" /> -->
           <InputAssemblies Include="$(TargetPath)" />
-          <InputAssemblies Include="$(OutputPath)LocalizationManager.dll" />
           <InputAssemblies Include="$(OutputPath)YamlDotNet.dll"/>
             <!-- <InputAssemblies Include="$(OutputPath)\StatusEffectManager.dll" /> -->
             <!-- <InputAssemblies Include="$(OutputPath)\ItemManager.dll" /> -->

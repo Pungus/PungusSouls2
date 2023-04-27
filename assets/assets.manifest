@@ -1,16 +1,10 @@
 ManifestFileVersion: 0
-CRC: 4139616146
+CRC: 3331160716
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: wep
+      Name: souls
       Dependencies: {}
     Info_1:
-      Name: souls
-      Dependencies:
-        Dependency_0: wep
-    Info_2:
-      Name: location2
-      Dependencies:
-        Dependency_0: wep
-        Dependency_1: souls
+      Name: punguslocations
+      Dependencies: {}

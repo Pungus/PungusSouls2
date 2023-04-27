@@ -12,7 +12,6 @@ using BepInEx.Configuration;
 using HarmonyLib;
 using JetBrains.Annotations;
 using UnityEngine;
-using LocalizationManager;
 using Object = UnityEngine.Object;
 
 namespace PieceManager;

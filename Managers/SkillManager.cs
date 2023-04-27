@@ -9,7 +9,6 @@ using BepInEx.Configuration;
 using HarmonyLib;
 using JetBrains.Annotations;
 using UnityEngine;
-using LocalizationManager;
 
 namespace SkillManager;
 
