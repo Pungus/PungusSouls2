@@ -133,8 +133,8 @@ namespace PungusSouls
             Bonefire.Snapshot();
 
             #endregion
-            /*#region SkillManager Example Code
-
+            #region SkillManager Example Code
+            /*
             Skill
                 tenacity = new("Tenacity",
                     "tenacity-icon.png"); // Skill name along with the skill icon. By default the icon is found in the icons folder. Put it there if you wish to load one.
@@ -144,8 +144,8 @@ namespace PungusSouls
             tenacity.Description.German(
                 "Reduziert erlittenen Schaden um 0,2% pro Stufe."); // You can do the same for the description
             tenacity.Configurable = true;
-
-            #endregion*/
+            */
+            #endregion
             #region Location Manager
             
                 LocationManager.Location FirelinkShrine = new("souls", "FireLinkShrine")
@@ -163,91 +163,7 @@ namespace PungusSouls
                     Prioritize = true,
                     Unique = true
                 };
-               /* {
-                    LocationManager.Location undeadasylum = new("punguslocations", "undeadasylum1")
-                    {
-                        MapIcon = "firelinkicon.png",
-                        Rotation = Rotation.Fixed,
-                        ShowMapIcon = ShowIcon.Explored,
-                        Biome = Heightmap.Biome.Mountain,
-                        SpawnArea = Heightmap.BiomeArea.Median,
-                        SpawnDistance = new Range(750, 2000),
-                        SpawnAltitude = new Range(30, 3000),
-                        MinimumDistanceFromGroup = 1000,
-                        HeightDelta = new Range(0, 8),
-                        ForestThreshold = new Range(0, 3),
-                        Count = 1,
-                        Prioritize = true,
-                        Unique = true
-                    };
-*//*                  {
-                        undeadasylum.CreatureSpawner.Add("ASpawner_2", "Neck");
-                        undeadasylum.CreatureSpawner.Add("ASpawner_1", "Boar");
-                        undeadasylum.CreatureSpawner.Add("ASpawner_3", "Deer");
-                    };*//*
-                }*/
-            /* _ = new LocationManager.Location("location2", "church");
-             _ = new LocationManager.Location("location2", "anorlondo")
-             {
-                 MapIcon = "portalicon.png",
-                 Rotation = Rotation.Fixed,
-                 ShowMapIcon = ShowIcon.Explored,
-                 Biome = Heightmap.Biome.DeepNorth,
-                 SpawnArea = Heightmap.BiomeArea.Median,
-                 SpawnDistance = new Range(8000, 10000),
-                 SpawnAltitude = new Range(30, 200),
-                 MinimumDistanceFromGroup = 100,
-                 Count = 1,
-                 Prioritize = true,
-                 Unique = true
-             };
-             _ = new LocationManager.Location("location2", "pworld");
-             _ = new LocationManager.Location("location2", "FirelinkAltar")
-             {
-                 MapIcon = "portalicon.png",
-                 Rotation = Rotation.Fixed,
-                 ShowMapIcon = ShowIcon.Explored,
-                 Biome = Heightmap.Biome.AshLands,
-                 SpawnArea = Heightmap.BiomeArea.Median,
-                 SpawnDistance = new Range(8000, 10000),
-                 SpawnAltitude = new Range(30, 200),
-                 HeightDelta = new Range(0, 20),
-                 MinimumDistanceFromGroup = 100,
-                 Count = 1,
-                 Prioritize = true,
-                 Unique = true
-             };
-
-             _ = new LocationManager.Location("location2", "NexusTop")
-             {
-                 MapIcon = "portalicon.png",
-                 ShowMapIcon = ShowIcon.Explored,
-                 Biome = Heightmap.Biome.Meadows,
-                 SpawnDistance = new Range(10, 3000),
-                 SpawnAltitude = new Range(30, 200),
-                 MinimumDistanceFromGroup = 100,
-                 Count = 1,
-                 Prioritize = true,
-                 Unique = true
-
-
-             };
-
-             _ = new LocationManager.Location("location2", "House1")
-             {
-                 MapIcon = "portalicon.png",
-                 ShowMapIcon = ShowIcon.Explored,
-                 Biome = Heightmap.Biome.Meadows,
-                 SpawnDistance = new Range(10, 3000),
-                 SpawnAltitude = new Range(30, 200),
-                 MinimumDistanceFromGroup = 100,
-                 Count = 1,
-                 Prioritize = true,
-                 Unique = true
-
-
-             };*/
-
+               
             #region Location Notes
 
             // MapIcon                      Sets the map icon for the location.
@@ -950,6 +866,20 @@ namespace PungusSouls
                 GameObject sfx_Hollow_Attack = ItemManager.PrefabManager.RegisterPrefab("souls", "sfx_Hollow_Attack");
                 GameObject SFX_Hollow_Idle = ItemManager.PrefabManager.RegisterPrefab("souls", "SFX_Hollow_Idle");
                 GameObject FX_BlackKnight_Death = ItemManager.PrefabManager.RegisterPrefab("souls", "FX_BlackKnight_Death");
+                
+                var mixerRef = Resources.FindObjectsOfTypeAll<GameObject>().ToList().Find(x => x.name ==
+                "sfx_battleaxe_swing_wosh")!.GetComponentsInChildren<AudioSource>();
+
+                if (mixerRef != null && mixerRef.Length > 0)
+                {
+                    //do a loop here on all your sounds that would be a SFX mixer, getting the AudioSource
+                    var myitemaudiosource = SFX_Taurus_Idle1.GetComponent<AudioSource>();
+                    myitemaudiosource.outputAudioMixerGroup = mixerRef[0].outputAudioMixerGroup;
+                }
+
+                /*var firelinkshrine_sfx = PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "firelinkshrine_sfx", false);
+                firelinkshrine_sfx.GetComponentInChildren<AudioSource>().outputAudioMixerGroup =AudioMan.instance.;*/
+            
             #endregion
             #region Boss Weapons
 
@@ -1067,18 +997,7 @@ namespace PungusSouls
                 /*PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Gwyn_SpawnFire", false);
                 PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "OdinFire1", false);
                 PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "DragonGreatSword_Projectile", false);*/
-                var mixerRef = Resources.FindObjectsOfTypeAll<GameObject>().ToList().Find(x => x.name == 
-                "sfx_battleaxe_swing_wosh")!.GetComponentsInChildren<AudioSource>();
 
-            if (mixerRef != null && mixerRef.Length > 0)
-            {
-                //do a loop here on all your sounds that would be a SFX mixer, getting the AudioSource
-                var myitemaudiosource = SFX_Taurus_Idle1.GetComponent<AudioSource>();
-                myitemaudiosource.outputAudioMixerGroup = mixerRef[0].outputAudioMixerGroup;
-            }
-
-                            /*var firelinkshrine_sfx = PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "firelinkshrine_sfx", false);
-                            firelinkshrine_sfx.GetComponentInChildren<AudioSource>().outputAudioMixerGroup =AudioMan.instance.;*/
             #endregion
             #region CreatureManager Example Code
 
