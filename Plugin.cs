@@ -860,8 +860,7 @@ namespace PungusSouls
                 GameObject FX_Taurus_Dead = ItemManager.PrefabManager.RegisterPrefab("souls", "FX_Taurus_Dead");
                 GameObject SFX_Taurus_Hit = ItemManager.PrefabManager.RegisterPrefab("souls", "FX_Taurus_Hit");
                 GameObject SFX_Taurus_Alert1 = ItemManager.PrefabManager.RegisterPrefab("souls", "SFX_Taurus_Alert1");
-/*                ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "SFX_Taurus_Idle1", false);
-*/              GameObject SFX_Taurus_Idle1 = ItemManager.PrefabManager.RegisterPrefab("souls", "SFX_Taurus_Idle1");
+                GameObject SFX_Taurus_Idle1 = ItemManager.PrefabManager.RegisterPrefab("souls", "SFX_Taurus_Idle1");
                 GameObject SFX_Hollow_Alert = ItemManager.PrefabManager.RegisterPrefab("souls", "SFX_Hollow_Alert");
                 GameObject sfx_Hollow_Attack = ItemManager.PrefabManager.RegisterPrefab("souls", "sfx_Hollow_Attack");
                 GameObject SFX_Hollow_Idle = ItemManager.PrefabManager.RegisterPrefab("souls", "SFX_Hollow_Idle");
