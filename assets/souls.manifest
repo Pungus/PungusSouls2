@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1404231276
+CRC: 3998271429
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a66626c089fd08a46ede36d82141656b
+    Hash: ff018f21bf6f4940c9244c05f8df583c
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9b917e59c1d0da4f5d451c86a5cd984e
@@ -213,6 +213,7 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: assembly_valheim
   ClassName: SpawnArea/SpawnData
 Assets:
+- Assets/test/Mushroom/FX_Souls_Dead1.prefab
 - Assets/test/Dark Souls - Giant Dad/GrassCrestShield1.prefab
 - Assets/test/DS - silver knight/BlackKnightUGS1.prefab
 - Assets/test/Taurus Demon/sfx_taurus_weaponhit1.prefab
@@ -269,7 +270,6 @@ Assets:
 - Assets/MonoBehaviour/SE_GrassShield.asset
 - Assets/wep/Mask of the Father/MaskOfFather.prefab
 - Assets/wep/Black Knight Shield/BlackKnightShield.prefab
-- Assets/wep/SunArmor/SunChest.prefab
 - Assets/creatures/Trident_AOE.prefab
 - Assets/wep/Drake Sword/DrakeSword.prefab
 - Assets/wep/Dragon King Greataxe/DragonKingGreatAxe.prefab
@@ -286,6 +286,7 @@ Assets:
 - Assets/wep/Gold Tracer/GoldTracer.prefab
 - Assets/test/Taurus Demon/SFX_Taurus_Idle1.prefab
 - Assets/test/DS - silver knight/BlackKnightHalberd3.prefab
+- Assets/PrefabInstance/testchest.prefab
 - Assets/wep/Silver Knight Spear/SilverKnightSpear1.prefab
 - Assets/test/Dark Souls - Giant Dad/BlackFlame_AOE.prefab
 - Assets/test/DS - silver knight/BlackKnightHalberd1.prefab

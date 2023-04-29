@@ -155,10 +155,10 @@ namespace PungusSouls
                     ShowMapIcon = ShowIcon.Explored,
                     Biome = Heightmap.Biome.Meadows,
                     SpawnArea = Heightmap.BiomeArea.Median,
-                    HeightDelta = new Range(0, 7),
-                    SpawnDistance = new Range(450, 750),
-                    SpawnAltitude = new Range(27, 100),
-                    ForestThreshold = new Range(0,1),
+                    HeightDelta = new Range(0, 16),
+                    SpawnDistance = new Range(500, 850),
+                    SpawnAltitude = new Range(24, 150),
+                    ForestThreshold = new Range(0, 1f),
                     Count = 1,
                     Prioritize = true,
                     Unique = true
@@ -241,15 +241,15 @@ namespace PungusSouls
                 TwinklingTitanite.Description.English("This weapon-reinforcing titanite is imbued with a particularly powerful energy. After this titanite was peeled from its Slab, it is said that it received a special power, but its specific nature is not clear.");
                 TwinklingTitanite.Snapshot();
                 
-                TwinklingTitanite.DropsFrom.Add("Boar", .10f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Deer", .20f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Neck", .10f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Greyling", .15f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Greydwarf", .15f, 1, 1);
+                TwinklingTitanite.DropsFrom.Add("Boar", .5f, 1, 1);
+                TwinklingTitanite.DropsFrom.Add("Deer", .15f, 1, 1);
+                TwinklingTitanite.DropsFrom.Add("Neck", .7f, 1, 1);
+                TwinklingTitanite.DropsFrom.Add("Greyling", .7f, 1, 1);
+                TwinklingTitanite.DropsFrom.Add("Greydwarf", .12f, 1, 1);
                 TwinklingTitanite.DropsFrom.Add("Greydwarf_Shaman", .15f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Greydwarf_Elite", .20f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Troll", .25f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Skeleton", .20f, 1, 1);
+                TwinklingTitanite.DropsFrom.Add("Greydwarf_Elite", .15f, 1, 1);
+                TwinklingTitanite.DropsFrom.Add("Troll", .20f, 1, 1);
+                TwinklingTitanite.DropsFrom.Add("Skeleton", .17f, 1, 1);
                 TwinklingTitanite.DropsFrom.Add("Blob", .20f, 1, 1);
                 TwinklingTitanite.DropsFrom.Add("Surtling", .20f, 1, 1);
                 TwinklingTitanite.DropsFrom.Add("Leech", .20f, 1, 1);
@@ -278,7 +278,7 @@ namespace PungusSouls
 
             #region ItemManager Items
 
-                Item SunChest = new("souls", "SunChest");
+                /*Item testchest = new("souls", "testchest");*/
 
                 Item AbyssGreatsword = new("souls", "AbyssGreatsword", "assets");
                 AbyssGreatsword.Name.English("Abyss Greatsword"); // You can use this to fix the display name in code
@@ -866,7 +866,7 @@ namespace PungusSouls
                 GameObject SFX_Hollow_Idle = ItemManager.PrefabManager.RegisterPrefab("souls", "SFX_Hollow_Idle");
                 GameObject FX_BlackKnight_Death = ItemManager.PrefabManager.RegisterPrefab("souls", "FX_BlackKnight_Death");
                 
-                var mixerRef = Resources.FindObjectsOfTypeAll<GameObject>().ToList().Find(x => x.name ==
+/*                var mixerRef = Resources.FindObjectsOfTypeAll<GameObject>().ToList().Find(x => x.name ==
                 "sfx_battleaxe_swing_wosh")!.GetComponentsInChildren<AudioSource>();
 
                 if (mixerRef != null && mixerRef.Length > 0)
@@ -874,7 +874,7 @@ namespace PungusSouls
                     //do a loop here on all your sounds that would be a SFX mixer, getting the AudioSource
                     var myitemaudiosource = SFX_Taurus_Idle1.GetComponent<AudioSource>();
                     myitemaudiosource.outputAudioMixerGroup = mixerRef[0].outputAudioMixerGroup;
-                }
+                }*/
 
                 /*var firelinkshrine_sfx = PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "firelinkshrine_sfx", false);
                 firelinkshrine_sfx.GetComponentInChildren<AudioSource>().outputAudioMixerGroup =AudioMan.instance.;*/

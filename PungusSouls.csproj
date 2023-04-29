@@ -119,7 +119,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="assets\ClearArea.cs" />
     <Compile Include="Managers\CreatureManager.cs" />
     <Compile Include="Managers\ItemManager.cs" />
     <Compile Include="Managers\LocationManager.cs" />
