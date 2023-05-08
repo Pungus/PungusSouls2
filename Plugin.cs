@@ -152,7 +152,8 @@ namespace PungusSouls
             #endregion
             #region Location Manager
             
-                LocationManager.Location FirelinkShrine = new("souls", "FireLinkShrine")
+            GameObject chest1 = ItemManager.PrefabManager.RegisterPrefab("punguslocations", "chest1");
+            LocationManager.Location FirelinkShrine = new("souls", "FireLinkShrine")
                 {
                     MapIcon = "firelinkicon.png",
                     Rotation = Rotation.Fixed,
@@ -1127,7 +1128,6 @@ namespace PungusSouls
                 /*ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "dragon_lightning_projectile", false);*//*
                 ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Trident_AOE", false);
                 ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "DragonSlayer_bow_projectile", false);*/
-                ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "chest1", false);
                 /*PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "SK_Spawner", false);
                 PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "OrnsteinSpawner", false);
                 PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "BK_Spawner", false);*/
