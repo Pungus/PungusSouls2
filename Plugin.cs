@@ -152,7 +152,7 @@ namespace PungusSouls
             #endregion
             #region Location Manager
             
-            GameObject chest1 = ItemManager.PrefabManager.RegisterPrefab("punguslocations", "chest1");
+            GameObject chest1 = ItemManager.PrefabManager.RegisterPrefab("souls", "chest1");
             LocationManager.Location FirelinkShrine = new("souls", "FireLinkShrine")
                 {
                     MapIcon = "firelinkicon.png",
