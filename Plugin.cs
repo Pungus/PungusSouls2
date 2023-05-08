@@ -22,6 +22,9 @@ using System.Runtime.Remoting.Contexts;
 using static Heightmap;
 using static MeleeWeaponTrail;
 using BlacksmithTools;
+using static UnityEngine.UI.GridLayoutGroup;
+using System.Security.Policy;
+using YamlDotNet.Core;
 
 namespace PungusSouls
 {
@@ -326,14 +329,81 @@ namespace PungusSouls
 
             Item ArtChest = new("souls", "ArtChest");
             ArtChest.Name.English("Abyss Chest Piece");
+            ArtChest.Description.English("Armor of Artorias the Abysswalker, one of Gwyn's four knights. The death of the armor's owner can be surmised from the corrosive Dark of the Abyss, and the tattered azure-blue cape, once a symbol of pride and glory.");
+            ArtChest.Crafting.Add("BlacksmithAltar", 1); // Custom crafting stations can be specified as a string
+            ArtChest.RequiredItems.Add("Silver", 25);
+            ArtChest.RequiredItems.Add("WolfHairBundle", 10);
+            ArtChest.RequiredItems.Add("TwinklingTitanite", 10);
+            ArtChest.RequiredItems.Add("DeerHide", 10);
+            ArtChest.RequiredUpgradeItems.Add("Silver", 5);
+            ArtChest.RequiredUpgradeItems.Add("TrophyWolf", 1);
+            ArtChest.RequiredUpgradeItems.Add("TwinklingTitanite", 2);
+            ArtChest.RequiredUpgradeItems.Add("DeerHide", 2);
+
             Item ArtLegs = new("souls", "ArtLegs");
             ArtLegs.Name.English("Abyss Leggins");
+            ArtLegs.Description.English("Leggings of Artorias the Abysswalker, one of Gwyn's four knights. The death of the their owner can be surmised from the corrosive Dark of the Abyss, which has compromised their protective utility.");
+            ArtLegs.Crafting.Add("BlacksmithAltar", 1); // Custom crafting stations can be specified as a string
+            ArtLegs.RequiredItems.Add("Silver", 25);
+            ArtLegs.RequiredItems.Add("WolfHairBundle", 10);
+            ArtLegs.RequiredItems.Add("TwinklingTitanite", 10);
+            ArtLegs.RequiredItems.Add("DeerHide", 10);
+            ArtLegs.RequiredUpgradeItems.Add("Silver", 5);
+            ArtLegs.RequiredUpgradeItems.Add("WolfHairBundle", 2);
+            ArtLegs.RequiredUpgradeItems.Add("TwinklingTitanite", 2);
+            ArtLegs.RequiredUpgradeItems.Add("DeerHide", 2);
+
             Item ArtHelm = new("souls", "ArtHelm");
             ArtHelm.Name.English("Abyss Helm");
+            ArtHelm.Description.English("Helm of Artorias the Abysswalker, one of Gwyn's four knights. The death of the helm's owner can be surmised from the corrosive Dark of the Abyss, and the musty azure - blue tassel, once a symbol of pride and glory.");
+            ArtHelm.Crafting.Add("BlacksmithAltar", 1); // Custom crafting stations can be specified as a string
+            ArtHelm.RequiredItems.Add("Silver", 25);
+            ArtHelm.RequiredItems.Add("TrophyWolf", 1);
+            ArtHelm.RequiredItems.Add("TwinklingTitanite", 10);
+            ArtHelm.RequiredItems.Add("DeerHide", 10);
+            ArtHelm.RequiredUpgradeItems.Add("Silver", 5);
+            ArtHelm.RequiredUpgradeItems.Add("WolfHairBundle", 2);
+            ArtHelm.RequiredUpgradeItems.Add("TwinklingTitanite", 2);
+            ArtHelm.RequiredUpgradeItems.Add("DeerHide", 2);
 
             Item HavelLegs = new("souls", "HavelLegs");
+            HavelLegs.Name.English("Havels Leggings");
+            HavelLegs.Description.English("Helm of Artorias the Abysswalker, one of Gwyn's four knights. The death of the helm's owner can be surmised from the corrosive Dark of the Abyss, and the musty azure - blue tassel, once a symbol of pride and glory.");
+            HavelLegs.Crafting.Add("BlacksmithAltar", 1); // Custom crafting stations can be specified as a string
+            HavelLegs.RequiredItems.Add("Stone", 25);
+            HavelLegs.RequiredItems.Add("DragonTear", 1);
+            HavelLegs.RequiredItems.Add("TwinklingTitanite", 10);
+            HavelLegs.RequiredItems.Add("BlackMetal", 10);
+            HavelLegs.RequiredUpgradeItems.Add("Stone", 5);
+            HavelLegs.RequiredUpgradeItems.Add("DragonTear", 2);
+            HavelLegs.RequiredUpgradeItems.Add("TwinklingTitanite", 2);
+            HavelLegs.RequiredUpgradeItems.Add("BlackMetal", 2);
+
             Item HavelHelm = new("souls", "HavelHelm");
+            HavelHelm.Name.English("Havels Helm");
+            HavelHelm.Description.English("Helm of Artorias the Abysswalker, one of Gwyn's four knights. The death of the helm's owner can be surmised from the corrosive Dark of the Abyss, and the musty azure - blue tassel, once a symbol of pride and glory.");
+            HavelHelm.Crafting.Add("BlacksmithAltar", 1); // Custom crafting stations can be specified as a string
+            HavelHelm.RequiredItems.Add("Stone", 25);
+            HavelHelm.RequiredItems.Add("DragonTear", 1);
+            HavelHelm.RequiredItems.Add("TwinklingTitanite", 10);
+            HavelHelm.RequiredItems.Add("BlackMetal", 10);
+            HavelHelm.RequiredUpgradeItems.Add("Stone", 5);
+            HavelHelm.RequiredUpgradeItems.Add("DragonTear", 2);
+            HavelHelm.RequiredUpgradeItems.Add("TwinklingTitanite", 2);
+            HavelHelm.RequiredUpgradeItems.Add("BlackMetal", 2);
+
             Item HavelChest = new("souls", "HavelChest");
+            HavelChest.Name.English("Havels Chest Piece");
+            HavelChest.Description.English("Helm of Artorias the Abysswalker, one of Gwyn's four knights. The death of the helm's owner can be surmised from the corrosive Dark of the Abyss, and the musty azure - blue tassel, once a symbol of pride and glory.");
+            HavelChest.Crafting.Add("BlacksmithAltar", 1); // Custom crafting stations can be specified as a string
+            HavelChest.RequiredItems.Add("Stone", 25);
+            HavelChest.RequiredItems.Add("DragonTear", 1);
+            HavelChest.RequiredItems.Add("TwinklingTitanite", 10);
+            HavelChest.RequiredItems.Add("BlackMetal", 10);
+            HavelChest.RequiredUpgradeItems.Add("Stone", 5);
+            HavelChest.RequiredUpgradeItems.Add("DragonTear", 2);
+            HavelChest.RequiredUpgradeItems.Add("TwinklingTitanite", 2);
+            HavelChest.RequiredUpgradeItems.Add("BlackMetal", 2);
 
             #endregion Armor
             Item AbyssGreatsword = new("souls", "AbyssGreatsword", "assets");
@@ -379,7 +449,7 @@ namespace PungusSouls
 
             Item Avelyn = new("souls", "Avelyn", "assets");
             Avelyn.Name.English("Avelyn"); // You can use this to fix the display name in code
-            Avelyn.Description.English("test");
+            Avelyn.Description.English("Repeating crossbow cherished by the weapon craftsman Eidas. Its elaborate design makes it closer to a work of art than a weapon. Intricate mechanism makes heavy damage possible through triple-shot firing of bolts. but in fact each bolt inflicts less damage");
             Avelyn.Crafting.Add("BlacksmithAltar", 1); // Custom crafting stations can be specified as a string
             Avelyn.RequiredItems.Add("Silver", 40);
             Avelyn.RequiredItems.Add("Eitr", 20);
@@ -930,7 +1000,7 @@ namespace PungusSouls
 
             #endregion
             #region SFX
-            GameObject sfx_Andre_bye1 = ItemManager.PrefabManager.RegisterPrefab("souls", "sfx_Andre_bye1");
+                GameObject sfx_Andre_bye1 = ItemManager.PrefabManager.RegisterPrefab("souls", "sfx_Andre_bye1");
                 GameObject sfx_Andre_greeting1 = ItemManager.PrefabManager.RegisterPrefab("souls", "sfx_Andre_greeting1");
                 GameObject sfx_Andre_talk1 = ItemManager.PrefabManager.RegisterPrefab("souls", "sfx_Andre_talk1");
                 GameObject firelinkshrine_sfx = ItemManager.PrefabManager.RegisterPrefab("souls", "firelinkshrine_sfx");
