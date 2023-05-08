@@ -68,6 +68,9 @@
     <Reference Include="BepInEx">
       <HintPath>$(GamePath)\BepInEx\core\BepInEx.dll</HintPath>
     </Reference>
+    <Reference Include="BlacksmithTools">
+      <HintPath>F:\ValheimSource\Obl\BlacksmithTools.dll</HintPath>
+    </Reference>
     <Reference Include="LocalizationManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\PungusPieces\Libs\LocalizationManager.dll</HintPath>
@@ -119,6 +122,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClearAreas.cs" />
     <Compile Include="Managers\CreatureManager.cs" />
     <Compile Include="Managers\ItemManager.cs" />
     <Compile Include="Managers\LocationManager.cs" />
@@ -133,6 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="assets\souls" />
+    <EmbeddedResource Include="assets\shared" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

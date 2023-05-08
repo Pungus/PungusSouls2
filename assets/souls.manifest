@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3998271429
+CRC: 307266564
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ff018f21bf6f4940c9244c05f8df583c
+    Hash: 970a5221db5367747b9c32d9f002f65e
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 9b917e59c1d0da4f5d451c86a5cd984e
+    Hash: 47a99f75ca1899fb119cfe96ea6750fd
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -50,35 +50,41 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 469224316, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
+  Script: {fileID: 895252998, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
   Script: {fileID: 1109157524, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
   Script: {fileID: 825357479, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
   Script: {fileID: 927819712, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
+  Script: {fileID: 1445782272, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
   Script: {fileID: 1521249158, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
-- Class: 114
-  Script: {fileID: 1541706127, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
-- Class: 114
-  Script: {fileID: 895252998, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
   Script: {fileID: 130663047, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
   Script: {fileID: 2094620348, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
+  Script: {fileID: 1541706127, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
   Script: {fileID: 2053127972, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
-  Script: {fileID: 1516789100, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+  Script: {fileID: 385221343, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
   Script: {fileID: 2140874873, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
+  Script: {fileID: 1516789100, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
   Script: {fileID: 1426176784, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
-  Script: {fileID: 712945444, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+  Script: {fileID: 313814881, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
   Script: {fileID: 1404409730, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
+  Script: {fileID: 712945444, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
   Script: {fileID: 647644853, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
@@ -94,11 +100,17 @@ ClassTypes:
 - Class: 114
   Script: {fileID: -347224168, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
+  Script: {fileID: -391423902, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
+  Script: {fileID: 269728403, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
   Script: {fileID: -1266444067, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
   Script: {fileID: -1855997503, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
   Script: {fileID: -1421768954, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
+  Script: {fileID: 1290261775, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
   Script: {fileID: -923427435, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
@@ -128,7 +140,13 @@ ClassTypes:
 - Class: 114
   Script: {fileID: -891010968, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
+  Script: {fileID: -1400890846, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
+  Script: {fileID: -1081985495, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
   Script: {fileID: -415060008, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
+  Script: {fileID: 368864397, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
   Script: {fileID: -917656959, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
@@ -211,6 +229,8 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: assembly_valheim
   ClassName: LevelEffects/LevelSetup
 - AssemblyName: assembly_valheim
+  ClassName: Piece/Requirement
+- AssemblyName: assembly_valheim
   ClassName: SpawnArea/SpawnData
 Assets:
 - Assets/test/Mushroom/FX_Souls_Dead1.prefab
@@ -230,6 +250,7 @@ Assets:
 - Assets/wep/SunlightSword.prefab
 - Assets/test/BlackKnight ds3/FX_BlackKnight_Death.prefab
 - Assets/wep/Silver Knight Shield/SilverKnightShield1.prefab
+- Assets/wep/Dark Silver Tracer/GoldSilverTracers.prefab
 - Assets/wep/Zweihander/ChaosZweihander1.prefab
 - Assets/test/DS - silver knight/BlackKnightGreatAxe2.prefab
 - Assets/wep/DragonSlayerSpear.prefab
@@ -237,11 +258,14 @@ Assets:
 - Assets/test/Andre/sfx_Andre_talk1.prefab
 - Assets/test/bonfire/Bonefire.prefab
 - Assets/Mega Fantasy Props Pack/Prefabs/Storage/chest1.prefab
+- Assets/wep/Artorias Set/ArtHelm.prefab
 - Assets/wep/Darkmoon Bow/DarkMoonBow.prefab
 - Assets/test/DS - silver knight/BlackKnightGreatAxe1.prefab
 - Assets/wep/lantern.prefab
 - Assets/wep/Dark Silver Tracer/DarkSilverTracer.prefab
 - Assets/wep/Great Lord Greatsword/GreatLordGreatSword.prefab
+- Assets/1Proj/export/New Prefab1.prefab
+- Assets/wep/havel set/HavelHelm.prefab
 - Assets/wep/Channeler's Trident/ChannelerTrident.prefab
 - Assets/test/LightningSpear_Projectile.prefab
 - Assets/wep/Dragonslayer Greatbow/DragonSlayerGreatBow.prefab
@@ -252,20 +276,26 @@ Assets:
 - Assets/1Proj/export/firelinkshrine_sfx.prefab
 - Assets/wep/Quelaag's Furysword/FurySword.prefab
 - Assets/wep/Moonlight Butterfly Horn/MLHorn.prefab
+- Assets/wep/Avelyn/Avelyn.prefab
 - Assets/test/Asylum Demon/DemonGreatHammerSlam.prefab
-- Assets/wep/Abyss Greatsword/AbyssGreatsword.prefab
 - Assets/1Proj/export/New Terrain1.asset
+- Assets/wep/Abyss Greatsword/AbyssGreatsword.prefab
 - Assets/wep/Murakumo/Murakumo.prefab
 - Assets/wep/MLgreatsword.prefab
 - Assets/test/Hollow Soldier/SFX_Hollow_Idle.prefab
 - Assets/wep/Greatsword of Artorias (Cursed)/CursedGreatsword.prefab
 - Assets/test/Altar of Sunlight/Nameless king statue/NamelessStatue.prefab
+- Assets/test/Gwyn.prefab
+- Assets/wep/havel set/HavelLegs.prefab
 - Assets/test/Taurus Demon/TaurusDemon.prefab
-- Assets/wep/GraveLord_AOE.prefab
 - Assets/wep/Washing Pole/washingpole.prefab
+- Assets/wep/Artorias Set/ArtChest.prefab
+- Assets/wep/GraveLord_AOE.prefab
+- Assets/wep/havel set/HavelChest.prefab
 - Assets/test/Mushroom/GiantMushroom.prefab
 - Assets/test/Taurus Demon/sfx_taurus_attack1.prefab
 - Assets/wep/Zweihander/ChaosZweihander.prefab
+- Assets/MonoBehaviour/SetEffect_HavelSet.asset
 - Assets/wep/Havel's Greatshield/HavelGreatShield.prefab
 - Assets/MonoBehaviour/SE_GrassShield.asset
 - Assets/wep/Mask of the Father/MaskOfFather.prefab
@@ -286,11 +316,12 @@ Assets:
 - Assets/wep/Gold Tracer/GoldTracer.prefab
 - Assets/test/Taurus Demon/SFX_Taurus_Idle1.prefab
 - Assets/test/DS - silver knight/BlackKnightHalberd3.prefab
-- Assets/PrefabInstance/testchest.prefab
 - Assets/wep/Silver Knight Spear/SilverKnightSpear1.prefab
 - Assets/test/Dark Souls - Giant Dad/BlackFlame_AOE.prefab
 - Assets/test/DS - silver knight/BlackKnightHalberd1.prefab
+- Assets/MonoBehaviour/SetEffect_ArtoriasSet.asset
 - Assets/wep/sunshield1.prefab
+- Assets/wep/Artorias Set/ArtLegs.prefab
 - Assets/wep/Black Knight Halberd/BlackKnightHalberd.prefab
 - Assets/wep/Artorias GreatShield/ArtoriasGreatshield.prefab
 - Assets/test/Asylum Demon/DemonGreatHammer2.prefab
@@ -299,27 +330,32 @@ Assets:
 - Assets/wep/Black Knight Sword/BlackKnightSword.prefab
 - Assets/wep/Priscilla's Dagger/Lifesteal.asset
 - Assets/test/Asylum Demon/AsylumDemon.prefab
+- Assets/wep/SunArmor/SunChest.prefab
 - Assets/1Proj/DragonGreatSword_Projectile.prefab
 - Assets/test/Hollow Soldier/sfx_Hollow_Attack.prefab
 - Assets/test/Lantern/Lantern1.prefab
 - Assets/test/Hollow Soldier/SFX_Hollow_Alert.prefab
 - Assets/wep/BlackKnightGreatAxe/BlackKnightGreatAxe.prefab
-- Assets/ScannedRocks/RockPrefabs_PBR/TwinklingTitanite.prefab
 - Assets/wep/ArcaneStone.prefab
+- Assets/wep/SunArmor/SunLegs.prefab
 - Assets/wep/Channeler's Trident/TridentBuff.asset
 - Assets/wep/MLGS/MLGS_Projectile.prefab
 - Assets/1Proj/export/FireLinkShrine.prefab
-- Assets/wep/Demon's Great Hammer/DemonGreatHammer.prefab
-- Assets/test/DS - silver knight/BlackKnightUGS2.prefab
-- Assets/wep/ArtGS.prefab
 - Assets/test/Hollow Soldier/HollowSoldier.prefab
+- Assets/test/DS - silver knight/BlackKnightUGS2.prefab
+- Assets/wep/Demon's Great Hammer/DemonGreatHammer.prefab
+- Assets/wep/ArtGS.prefab
 - Assets/wep/Priscilla's Dagger/DaggerPrisc.prefab
 - Assets/test/Taurus Demon/TaurusWep2.prefab
 - Assets/wep/Manus Catalyst/ManusCatalyst.prefab
 - Assets/test/Taurus Demon/TaurusWep1.prefab
 - Assets/test/Andre/BlacksmithAltar.prefab
+- Assets/test/DS - silver knight/SilverKnight.prefab
 - Assets/test/Dark Souls - Giant Dad/Giantdad.prefab
+- Assets/wep/SunArmor/SunHelm.prefab
 - Assets/wep/Beatrice's Catalyst/StaffWood.prefab
 - Assets/wep/Gargoyle Tail Axe/GargoyleAxe.prefab
 - Assets/wep/Greatsword/BerserkGreatsword.prefab
-Dependencies: []
+- Assets/test/Ornstein the Dragonslayer/DragonSlayerOrnstein.prefab
+Dependencies:
+- C:/Users/Jerem/source/repos/PungusSoulsLocations/assets/shared
