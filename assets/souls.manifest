@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2691556527
+CRC: 2005714906
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: bd8793a548354ee724476d8bfa0ee237
+    Hash: 6a3029dd96acf5566ace854bb65f69b5
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 47a99f75ca1899fb119cfe96ea6750fd
+    Hash: f3162f899092b5a3a809911384c54b22
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -60,6 +60,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 1445782272, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
+  Script: {fileID: 385221343, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
   Script: {fileID: 1521249158, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
   Script: {fileID: 130663047, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
@@ -70,15 +72,17 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 2053127972, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
-  Script: {fileID: 385221343, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
-- Class: 114
   Script: {fileID: 2140874873, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
   Script: {fileID: 1516789100, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
+  Script: {fileID: 1494671628, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
   Script: {fileID: 1426176784, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
   Script: {fileID: 313814881, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
+  Script: {fileID: 69470131, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
@@ -125,8 +129,6 @@ ClassTypes:
   Script: {fileID: -843416108, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
   Script: {fileID: -2077285929, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
-- Class: 114
-  Script: {fileID: 69470131, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
   Script: {fileID: 1282597392, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
@@ -241,23 +243,25 @@ Assets:
 - Assets/wep/DarkSword.prefab
 - Assets/test/DS - silver knight/BlackKnightHalberd2.prefab
 - Assets/test/Andre/sfx_Andre_greeting1.prefab
-- Assets/test/BlackKnight.prefab
+- Assets/test/Crystal Golem/Golem_Unarmed2.prefab
 - Assets/test/Andre/sfx_Andre_bye1.prefab
 - Assets/wep/Silver Knight Spear/SilverKnightSpear2.prefab
+- Assets/test/BlackKnight.prefab
 - Assets/wep/Glordsword.prefab
 - Assets/wep/dragontooth.prefab
 - Assets/test/DS - silver knight/DragonSlayerGreatBow1.prefab
 - Assets/wep/SunlightSword.prefab
 - Assets/test/BlackKnight ds3/FX_BlackKnight_Death.prefab
+- Assets/test/Crystal Golem/Golem_Unarmed1.prefab
 - Assets/wep/Silver Knight Shield/SilverKnightShield1.prefab
 - Assets/wep/Dark Silver Tracer/GoldSilverTracers.prefab
 - Assets/wep/Zweihander/ChaosZweihander1.prefab
 - Assets/test/DS - silver knight/BlackKnightGreatAxe2.prefab
+- Assets/test/Crystal Golem/CrystalGolem.prefab
 - Assets/wep/DragonSlayerSpear.prefab
 - Assets/wep/Dragonslayer Greatbow/crosshair_bow.prefab
 - Assets/test/Andre/sfx_Andre_talk1.prefab
 - Assets/test/bonfire/Bonefire.prefab
-- Assets/Mega Fantasy Props Pack/Prefabs/Storage/chest1.prefab
 - Assets/wep/Artorias Set/ArtHelm.prefab
 - Assets/wep/Darkmoon Bow/DarkMoonBow.prefab
 - Assets/test/DS - silver knight/BlackKnightGreatAxe1.prefab
@@ -272,6 +276,7 @@ Assets:
 - Assets/wep/Silver Knight Straight Sword/SilverKnightSword1.prefab
 - Assets/wep/Shotel/Shotel.prefab
 - Assets/test/Taurus Demon/FX_Taurus_Hit.prefab
+- Assets/test/Crystal Golem/Golem_Unarmed3.prefab
 - Assets/test/Taurus Demon/SFX_Taurus_Alert1.prefab
 - Assets/1Proj/export/firelinkshrine_sfx.prefab
 - Assets/wep/Quelaag's Furysword/FurySword.prefab
@@ -291,11 +296,13 @@ Assets:
 - Assets/wep/Washing Pole/washingpole.prefab
 - Assets/wep/Artorias Set/ArtChest.prefab
 - Assets/wep/GraveLord_AOE.prefab
+- Assets/test/Blue wyvern xps/Wyvern.prefab
+- Assets/1Proj/export/BlankEnv.prefab
 - Assets/wep/havel set/HavelChest.prefab
 - Assets/test/Mushroom/GiantMushroom.prefab
 - Assets/test/Taurus Demon/sfx_taurus_attack1.prefab
-- Assets/wep/Zweihander/ChaosZweihander.prefab
 - Assets/MonoBehaviour/SetEffect_HavelSet.asset
+- Assets/wep/Zweihander/ChaosZweihander.prefab
 - Assets/wep/Havel's Greatshield/HavelGreatShield.prefab
 - Assets/MonoBehaviour/SE_GrassShield.asset
 - Assets/wep/Mask of the Father/MaskOfFather.prefab
@@ -304,15 +311,17 @@ Assets:
 - Assets/wep/Drake Sword/DrakeSword.prefab
 - Assets/wep/Dragon King Greataxe/DragonKingGreatAxe.prefab
 - Assets/wep/grasscrestshield/GrassCrestShield.prefab
+- Assets/PrefabInstance/loot_chest_stone_new.prefab
 - Assets/wep/BlackKnightUGS.prefab
 - Assets/wep/Dragon Greatsword/DragonGreatSword.prefab
 - Assets/test/Taurus Demon/TaurusWep.prefab
 - Assets/test/Asylum Demon/DemonGreatHammer1.prefab
-- Assets/PrefabInstance/MushroomUnarmed.prefab
+- Assets/Mega Fantasy Props Pack/Prefabs/Storage/chest3.prefab
 - Assets/wep/Channeler's Trident/ProjectileTrident.prefab
 - Assets/test/Taurus Demon/FX_Taurus_Dead.prefab
-- Assets/wep/Black Iron Greatshield/BlackIronShield.prefab
+- Assets/PrefabInstance/MushroomUnarmed.prefab
 - Assets/wep/Smough's Hammer/SmoughHammer.prefab
+- Assets/wep/Black Iron Greatshield/BlackIronShield.prefab
 - Assets/wep/Gold Tracer/GoldTracer.prefab
 - Assets/test/Taurus Demon/SFX_Taurus_Idle1.prefab
 - Assets/test/DS - silver knight/BlackKnightHalberd3.prefab
@@ -330,6 +339,7 @@ Assets:
 - Assets/wep/Black Knight Sword/BlackKnightSword.prefab
 - Assets/wep/Priscilla's Dagger/Lifesteal.asset
 - Assets/test/Asylum Demon/AsylumDemon.prefab
+- Assets/test/Crystal Golem/Golem_Unarmed4.prefab
 - Assets/wep/SunArmor/SunChest.prefab
 - Assets/1Proj/DragonGreatSword_Projectile.prefab
 - Assets/test/Hollow Soldier/sfx_Hollow_Attack.prefab
@@ -357,5 +367,6 @@ Assets:
 - Assets/wep/Gargoyle Tail Axe/GargoyleAxe.prefab
 - Assets/wep/Greatsword/BerserkGreatsword.prefab
 - Assets/test/Ornstein the Dragonslayer/DragonSlayerOrnstein.prefab
+- Assets/test/Crystal Golem/Golem_AOE.prefab
 Dependencies:
 - C:/Users/Jerem/source/repos/PungusSoulsLocations/assets/shared

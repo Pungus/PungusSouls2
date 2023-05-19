@@ -59,7 +59,48 @@ namespace PungusSouls
             _serverConfigLocked = config("1 - General", "Lock Configuration", Toggle.On,
                 "If on, the configuration is locked and can be changed by server admins only.");
             _ = ConfigSync.AddLockingConfigEntry(_serverConfigLocked);
+            
+            #region ItemManager Materials
 
+            Item TwinklingTitanite = new("shared", "TwinklingTitanite", "assets");
+            TwinklingTitanite.Name.English("Twinkling Titanite"); // You can use this to fix the display name in code
+            TwinklingTitanite.Description.English("This weapon-reinforcing titanite is imbued with a particularly powerful energy. After this titanite was peeled from its Slab, it is said that it received a special power, but its specific nature is not clear.");
+            TwinklingTitanite.Snapshot();
+
+            TwinklingTitanite.DropsFrom.Add("Boar", .5f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("Deer", .15f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("Neck", .7f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("Greyling", .7f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("Greydwarf", .12f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("Greydwarf_Shaman", .15f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("Greydwarf_Elite", .15f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("Troll", .20f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("Skeleton", .17f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("Blob", .20f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("Surtling", .20f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("Leech", .20f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("Draugr", .20f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("Draugr_Elite", .20f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("Wraith", .20f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("Abomination", .20f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("Wolf", .25f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("Hatchling", .25f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("Deathsquito", .30f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("Goblin", .35f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("GoblinBrute", .40f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("BlobTar", .35f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("GoblinShaman", .40f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("Lox", .40f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("Seeker", .50f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("SeekerBrute", .50f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("Gjall", .50f, 1, 1);
+            TwinklingTitanite.DropsFrom.Add("Eikthyr", 100f, 3, 7);
+            TwinklingTitanite.DropsFrom.Add("gd_king", 100f, 4, 8);
+            TwinklingTitanite.DropsFrom.Add("Bonemass", 100f, 5, 12);
+            TwinklingTitanite.DropsFrom.Add("Dragon", 100f, 7, 13);
+            TwinklingTitanite.DropsFrom.Add("GoblinKing", 100f, 10, 15);
+            TwinklingTitanite.DropsFrom.Add("SeekerQueen", 100f, 12, 16);
+            #endregion
             #region PieceManager Example Code
 
             // Globally turn off configuration options for your pieces, omit if you don't want to do this.
@@ -152,7 +193,7 @@ namespace PungusSouls
             #endregion
             #region Location Manager
             
-            GameObject chest1 = ItemManager.PrefabManager.RegisterPrefab("souls", "chest1");
+
             LocationManager.Location FirelinkShrine = new("souls", "FireLinkShrine")
                 {
                     MapIcon = "firelinkicon.png",
@@ -161,8 +202,8 @@ namespace PungusSouls
                     Biome = Heightmap.Biome.Meadows,
                     SpawnArea = Heightmap.BiomeArea.Median,
                     HeightDelta = new Range(0, 12),
-                    SpawnDistance = new Range(500, 850),
-                    SpawnAltitude = new Range(24, 90),
+                    SpawnDistance = new Range(450, 850),
+                    SpawnAltitude = new Range(23, 100),
                     Count = 1,
                     Prioritize = true,
                     Unique = true
@@ -244,47 +285,7 @@ namespace PungusSouls
 
             #endregion
 
-            #region ItemManager Materials
 
-            Item TwinklingTitanite = new("shared", "TwinklingTitanite", "assets");
-                TwinklingTitanite.Name.English("Twinkling Titanite"); // You can use this to fix the display name in code
-                TwinklingTitanite.Description.English("This weapon-reinforcing titanite is imbued with a particularly powerful energy. After this titanite was peeled from its Slab, it is said that it received a special power, but its specific nature is not clear.");
-                TwinklingTitanite.Snapshot();
-                
-                TwinklingTitanite.DropsFrom.Add("Boar", .5f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Deer", .15f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Neck", .7f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Greyling", .7f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Greydwarf", .12f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Greydwarf_Shaman", .15f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Greydwarf_Elite", .15f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Troll", .20f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Skeleton", .17f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Blob", .20f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Surtling", .20f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Leech", .20f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Draugr", .20f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Draugr_Elite", .20f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Wraith", .20f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Abomination", .20f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Wolf", .25f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Hatchling", .25f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Deathsquito", .30f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Goblin", .35f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("GoblinBrute", .40f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("BlobTar", .35f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("GoblinShaman", .40f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Lox", .40f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Seeker", .50f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("SeekerBrute", .50f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Gjall", .50f, 1, 1);
-                TwinklingTitanite.DropsFrom.Add("Eikthyr", 100f, 3, 7);
-                TwinklingTitanite.DropsFrom.Add("gd_king", 100f, 4, 8);
-                TwinklingTitanite.DropsFrom.Add("Bonemass", 100f, 5, 12);
-                TwinklingTitanite.DropsFrom.Add("Dragon", 100f, 7, 13);
-                TwinklingTitanite.DropsFrom.Add("GoblinKing", 100f, 10, 15);
-                TwinklingTitanite.DropsFrom.Add("SeekerQueen", 100f, 12, 16);
-            #endregion
 
             #region ItemManager Items
             #region Armor
@@ -452,14 +453,14 @@ namespace PungusSouls
             Avelyn.Name.English("Avelyn"); // You can use this to fix the display name in code
             Avelyn.Description.English("Repeating crossbow cherished by the weapon craftsman Eidas. Its elaborate design makes it closer to a work of art than a weapon. Intricate mechanism makes heavy damage possible through triple-shot firing of bolts. but in fact each bolt inflicts less damage");
             Avelyn.Crafting.Add("BlacksmithAltar", 1); // Custom crafting stations can be specified as a string
-            Avelyn.RequiredItems.Add("Silver", 40);
-            Avelyn.RequiredItems.Add("Eitr", 20);
+            Avelyn.RequiredItems.Add("Wood", 20);
+            Avelyn.RequiredItems.Add("Iron", 10);
             Avelyn.RequiredItems.Add("TwinklingTitanite", 10);
-            Avelyn.RequiredItems.Add("TrophyWolf", 1);
-            Avelyn.RequiredUpgradeItems.Add("Silver", 20);
-            Avelyn.RequiredUpgradeItems.Add("Eitr", 10);
-            Avelyn.RequiredUpgradeItems.Add("TwinklingTitanite", 5);
-            Avelyn.RequiredUpgradeItems.Add("TrophyWolf", 1);
+            Avelyn.RequiredItems.Add("Root", 8);
+            Avelyn.RequiredUpgradeItems.Add("Wood", 5);
+            Avelyn.RequiredUpgradeItems.Add("Iron", 2);
+            Avelyn.RequiredUpgradeItems.Add("TwinklingTitanite", 2);
+            Avelyn.RequiredUpgradeItems.Add("Root", 2);
 
 
             Item BerserkGreatsword = new("souls", "BerserkGreatsword", "assets");
@@ -1067,11 +1068,16 @@ namespace PungusSouls
                 BlackKnightUGS1.Configurable = Configurability.Disabled;
                 Item BlackKnightUGS2 = new("souls", "BlackKnightUGS2", "assets");
                 BlackKnightUGS2.Configurable = Configurability.Disabled;
+                Item Golem_Unarmed1 = new("souls", "Golem_Unarmed1", "assets");
+                Golem_Unarmed1.Configurable = Configurability.Disabled;
+                Item Golem_Unarmed2 = new("souls", "Golem_Unarmed2", "assets");
+                Golem_Unarmed2.Configurable = Configurability.Disabled;
                 ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "DragonGreatSword_Projectile", false);
                 ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Gwyn_SpawnFire", false);
                 ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "OdinFire1", false);
                 ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "GraveLord_AOE", false);
                 ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "MLGS_Projectile", false);
+/*                ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Golem_AOE", false);*/
                 Item DragonSlayerGreatBow1 = new("souls", "DragonSlayerGreatBow1", "assets");
                 DragonSlayerGreatBow1.Configurable = Configurability.Disabled;
                 /*Item GreatLordGreatSword1 = new("souls", "GreatLordGreatSword1", "assets");
@@ -1154,7 +1160,7 @@ namespace PungusSouls
                                        Artorias.Drops["Wood"].Amount = new CreatureManager.Range(1, 2);
                                        Artorias.Drops["Wood"].DropChance = 100f;
             */
-            Creature AsylumDemon = new("souls", "AsylumDemon")
+/*            Creature AsylumDemon = new("souls", "AsylumDemon")
             {
                 Biome = Heightmap.Biome.None,
                 GroupSize = new CreatureManager.Range(1, 2),
@@ -1164,15 +1170,28 @@ namespace PungusSouls
             };
             AsylumDemon.Localize().English("Asylum Demon");
             AsylumDemon.Drops["Wood"].Amount = new CreatureManager.Range(1, 2);
-            AsylumDemon.Drops["Wood"].DropChance = 100f;
+            AsylumDemon.Drops["Wood"].DropChance = 100f;*/
 
+
+              Creature CrystalGolem = new("souls", "CrystalGolem")
+
+            {
+                Biome = Heightmap.Biome.AshLands,
+                GroupSize = new CreatureManager.Range(1, 2),
+                CheckSpawnInterval = 900,
+                Maximum = 3
+            };
+
+            CrystalGolem.Localize().English("Crystal Golem");
+            CrystalGolem.Drops["TwinklingTitanite"].Amount = new CreatureManager.Range(1, 3);
+            CrystalGolem.Drops["TwinklingTitanite"].DropChance = 75f;
 
             Creature BlackKnight = new("souls", "BlackKnight")
 
             {
                 Biome = Heightmap.Biome.AshLands,
                 GroupSize = new CreatureManager.Range(1, 2),
-                CheckSpawnInterval = 700,
+                CheckSpawnInterval = 900,
                 Maximum = 3
             };
 
@@ -1180,42 +1199,42 @@ namespace PungusSouls
             BlackKnight.Drops["TwinklingTitanite"].Amount = new CreatureManager.Range(1, 3);
             BlackKnight.Drops["TwinklingTitanite"].DropChance = 75f;
 
-            Creature SilverKnight = new("souls", "SilverKnight")
-            {
-            Biome = Heightmap.Biome.Mountain,
-            GroupSize = new CreatureManager.Range(1, 2),
-            CheckSpawnInterval = 600,
-            RequiredWeather = Weather.Rain | Weather.Fog,
-            Maximum = 0,
-             };
+            /*            Creature SilverKnight = new("souls", "SilverKnight")
+                        {
+                        Biome = Heightmap.Biome.Mountain,
+                        GroupSize = new CreatureManager.Range(1, 2),
+                        CheckSpawnInterval = 600,
+                        RequiredWeather = Weather.Rain | Weather.Fog,
+                        Maximum = 0,
+                         };
 
-            SilverKnight.Localize().English("Silver Knight");
-            SilverKnight.Drops["Wood"].Amount = new CreatureManager.Range(1, 2);
-            SilverKnight.Drops["Wood"].DropChance = 100f;
+                        SilverKnight.Localize().English("Silver Knight");
+                        SilverKnight.Drops["Wood"].Amount = new CreatureManager.Range(1, 2);
+                        SilverKnight.Drops["Wood"].DropChance = 100f;*/
 
-            Creature DragonSlayerOrnstein = new("souls", "DragonSlayerOrnstein")
-             {
-                 Biome = Heightmap.Biome.None,
-                 GroupSize = new CreatureManager.Range(1, 2),
-                 CheckSpawnInterval = 600,
-                 RequiredWeather = Weather.Rain | Weather.Fog,
-                 Maximum = 0
-             };
-             DragonSlayerOrnstein.Localize().English("DragonSlayerOrnstein");
-             DragonSlayerOrnstein.Drops["Wood"].Amount = new CreatureManager.Range(1, 2);
-             DragonSlayerOrnstein.Drops["Wood"].DropChance = 100f;
+            /*            Creature DragonSlayerOrnstein = new("souls", "DragonSlayerOrnstein")
+                         {
+                             Biome = Heightmap.Biome.None,
+                             GroupSize = new CreatureManager.Range(1, 2),
+                             CheckSpawnInterval = 600,
+                             RequiredWeather = Weather.Rain | Weather.Fog,
+                             Maximum = 0
+                         };
+                         DragonSlayerOrnstein.Localize().English("DragonSlayerOrnstein");
+                         DragonSlayerOrnstein.Drops["Wood"].Amount = new CreatureManager.Range(1, 2);
+                         DragonSlayerOrnstein.Drops["Wood"].DropChance = 100f;*/
 
-            Creature Gwyn = new("souls", "Gwyn")
-            {
-                Biome = Heightmap.Biome.None,
-                GroupSize = new CreatureManager.Range(1, 2),
-                CheckSpawnInterval = 600,
-                RequiredWeather = Weather.Rain | Weather.Fog,
-                Maximum = 0
-            };
-            Gwyn.Localize().English("Gwyn");
-            Gwyn.Drops["Wood"].Amount = new CreatureManager.Range(1, 2);
-            Gwyn.Drops["Wood"].DropChance = 100f;
+            /*            Creature Gwyn = new("souls", "Gwyn")
+                        {
+                            Biome = Heightmap.Biome.None,
+                            GroupSize = new CreatureManager.Range(1, 2),
+                            CheckSpawnInterval = 600,
+                            RequiredWeather = Weather.Rain | Weather.Fog,
+                            Maximum = 0
+                        };
+                        Gwyn.Localize().English("Gwyn");
+                        Gwyn.Drops["Wood"].Amount = new CreatureManager.Range(1, 2);
+                        Gwyn.Drops["Wood"].DropChance = 100f;*/
 
 
             Creature GiantDad = new("souls", "GiantDad")
@@ -1239,8 +1258,8 @@ namespace PungusSouls
                 RequiredGlobalKey = GlobalKey.KilledBonemass,
                 Biome = Heightmap.Biome.BlackForest | Heightmap.Biome.Meadows,
                 GroupSize = new CreatureManager.Range(1, 2),
-                CheckSpawnInterval = 1000,
-                Maximum = 3
+                CheckSpawnInterval = 1600,
+                Maximum = 2
             };
 
             GiantMushroom.Localize().English("Giant Mushroom");
@@ -1255,7 +1274,7 @@ namespace PungusSouls
                 RequiredGlobalKey = GlobalKey.KilledEikthyr,
                 Biome = Heightmap.Biome.Meadows | Heightmap.Biome.BlackForest | Heightmap.Biome.Swamp,
                 GroupSize = new CreatureManager.Range(1, 3),
-                CheckSpawnInterval = 1100,
+                CheckSpawnInterval = 2000,
                 Maximum = 5
             };
 
@@ -1288,9 +1307,9 @@ namespace PungusSouls
 
             {
                 RequiredGlobalKey = GlobalKey.KilledElder,
-                Biome = Heightmap.Biome.Meadows | Heightmap.Biome.BlackForest,
+                Biome = Heightmap.Biome.Meadows | Heightmap.Biome.BlackForest | Heightmap.Biome.AshLands,
                 GroupSize = new CreatureManager.Range(1, 2),
-                CheckSpawnInterval = 1500,
+                CheckSpawnInterval = 3500,
                 Maximum = 1
             };
 
@@ -1325,7 +1344,29 @@ namespace PungusSouls
             Config.Save();
         }
 
-        private void SetupWatcher()
+
+        public static EnvSetup newEnv = new EnvSetup(); //Assembly_Valheim
+        public static EnvMan newEnvMan = new EnvMan();
+        [HarmonyPatch(typeof(EnvMan), nameof(EnvMan.Awake))]
+        private static class EnvMan_Awake_Patches
+        {
+            public static void Postfix(EnvMan __instance)
+            {
+                __instance.m_environments.Add(newEnv);
+                __instance.InitializeEnvironment(newEnv);
+            }
+        }
+
+        GameObject BlankEnv = PrefabManager.RegisterPrefab("souls", "BlankEnv");
+        private void InitEnvSetup()
+        {
+            newEnv.m_name = "FirelinkShrine";
+            newEnv.m_ambColorNight = Color.white;
+            newEnv.m_psystems = new GameObject[] { BlankEnv };
+            newEnv.m_psystemsOutsideOnly = true ;
+            newEnvMan.m_currentPSystems= new GameObject[] { BlankEnv };
+    }
+            private void SetupWatcher()
         {
             FileSystemWatcher watcher = new(Paths.ConfigPath, ConfigFileName);
             watcher.Changed += ReadConfigValues;
