@@ -1364,7 +1364,6 @@ namespace PungusSouls
             newEnv.m_ambColorNight = Color.white;
             newEnv.m_psystems = new GameObject[] { BlankEnv };
             newEnv.m_psystemsOutsideOnly = true ;
-            newEnvMan.m_currentPSystems= new GameObject[] { BlankEnv };
     }
             private void SetupWatcher()
         {
