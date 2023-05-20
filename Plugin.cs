@@ -1343,28 +1343,6 @@ namespace PungusSouls
         {
             Config.Save();
         }
-
-
-        public static EnvSetup newEnv = new EnvSetup(); //Assembly_Valheim
-        public static EnvMan newEnvMan = new EnvMan();
-        [HarmonyPatch(typeof(EnvMan), nameof(EnvMan.Awake))]
-        private static class EnvMan_Awake_Patches
-        {
-            public static void Postfix(EnvMan __instance)
-            {
-                __instance.m_environments.Add(newEnv);
-                __instance.InitializeEnvironment(newEnv);
-            }
-        }
-
-        GameObject BlankEnv = PrefabManager.RegisterPrefab("souls", "BlankEnv");
-        private void InitEnvSetup()
-        {
-            newEnv.m_name = "FirelinkShrine";
-            newEnv.m_ambColorNight = Color.white;
-            newEnv.m_psystems = new GameObject[] { BlankEnv };
-            newEnv.m_psystemsOutsideOnly = true ;
-    }
             private void SetupWatcher()
         {
             FileSystemWatcher watcher = new(Paths.ConfigPath, ConfigFileName);
