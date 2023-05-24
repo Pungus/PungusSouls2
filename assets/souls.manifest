@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 34259782
+CRC: 131103667
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: eb17c90023ee6bacee5acb36b2d13278
+    Hash: cc289dc14e1f3d214645929dbfc3be52
   TypeTreeHash:
     serializedVersion: 2
     Hash: 04765676e302a3119be366c6285ecfca
@@ -247,6 +247,7 @@ Assets:
 - Assets/test/Taurus Demon/sfx_taurus_weaponhit1.prefab
 - Assets/test/Dark Souls - Giant Dad/BlackFlame.prefab
 - Assets/1Proj/wep/DarkSword.prefab
+- Assets/test/Crystal Golem/Golem_Unarmed3.prefab
 - Assets/test/DS - silver knight/BlackKnightHalberd2.prefab
 - Assets/test/Andre/sfx_Andre_greeting1.prefab
 - Assets/test/Crystal Golem/Golem_Unarmed2.prefab
@@ -284,7 +285,6 @@ Assets:
 - Assets/1Proj/wep/Silver Knight Straight Sword/SilverKnightSword1.prefab
 - Assets/1Proj/wep/Shotel/Shotel.prefab
 - Assets/test/Taurus Demon/FX_Taurus_Hit.prefab
-- Assets/test/Crystal Golem/Golem_Unarmed3.prefab
 - Assets/test/Taurus Demon/SFX_Taurus_Alert1.prefab
 - Assets/1Proj/export/firelinkshrine_sfx.prefab
 - Assets/1Proj/wep/Quelaag's Furysword/FurySword.prefab
@@ -353,7 +353,6 @@ Assets:
 - Assets/1Proj/wep/Black Knight Sword/BlackKnightSword.prefab
 - Assets/1Proj/wep/Priscilla's Dagger/Lifesteal.asset
 - Assets/test/Asylum Demon/AsylumDemon.prefab
-- Assets/test/Crystal Golem/Golem_Unarmed4.prefab
 - Assets/1Proj/wep/SunArmor/SunChest.prefab
 - Assets/1Proj/DragonGreatSword_Projectile.prefab
 - Assets/test/Hollow Soldier/sfx_Hollow_Attack.prefab

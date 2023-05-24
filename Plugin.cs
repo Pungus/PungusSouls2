@@ -59,14 +59,19 @@ namespace PungusSouls
             _serverConfigLocked = config("1 - General", "Lock Configuration", Toggle.On,
                 "If on, the configuration is locked and can be changed by server admins only.");
             _ = ConfigSync.AddLockingConfigEntry(_serverConfigLocked);
-            
+
+
+
+            #region Animations
+
+            #endregion
             #region ItemManager Materials
 
             Item TwinklingTitanite = new("shared", "TwinklingTitanite", "assets");
             TwinklingTitanite.Name.English("Twinkling Titanite"); // You can use this to fix the display name in code
             TwinklingTitanite.Description.English("This weapon-reinforcing titanite is imbued with a particularly powerful energy. After this titanite was peeled from its Slab, it is said that it received a special power, but its specific nature is not clear.");
             TwinklingTitanite.Snapshot();
-
+            #region Drops
             TwinklingTitanite.DropsFrom.Add("Boar", .5f, 1, 1);
             TwinklingTitanite.DropsFrom.Add("Deer", .15f, 1, 1);
             TwinklingTitanite.DropsFrom.Add("Neck", .7f, 1, 1);
@@ -101,16 +106,15 @@ namespace PungusSouls
             TwinklingTitanite.DropsFrom.Add("GoblinKing", 100f, 10, 15);
             TwinklingTitanite.DropsFrom.Add("SeekerQueen", 100f, 12, 16);
             #endregion
+
+            #endregion
             #region PieceManager Example Code
 
             // Globally turn off configuration options for your pieces, omit if you don't want to do this.
             BuildPiece.ConfigurationEnabled = false;
 
-            // Format: new("AssetBundleName", "PrefabName", "FolderName");
-
             PiecePrefabManager.RegisterPrefab("souls", "BlacksmithAltar");
 
-            // Format: new("AssetBundleName", "PrefabName", "FolderName");
             BuildPiece Lanterny = new("souls", "Lantern");
 
             Lanterny.Name.English("Arcane Lantern"); // Localize the name and description for the building piece for a language.
@@ -121,7 +125,6 @@ namespace PungusSouls
             Lanterny.RequiredItems.Add("TwinklingTitanite", 15, true);
             Lanterny.Category.Add(PieceManager.BuildPieceCategory.Crafting);
             Lanterny.Crafting.Set("BlacksmithAltar"); // Set a crafting station requirement for the piece.
-            /*Lanterny.Extension.Set("BlacksmithAltar", 2);*/
             Lanterny.Snapshot();
 
             BuildPiece Lantern1 = new("souls", "Lantern1");
@@ -134,10 +137,8 @@ namespace PungusSouls
             Lantern1.RequiredItems.Add("TwinklingTitanite", 10, true);
             Lantern1.Category.Add(PieceManager.BuildPieceCategory.Crafting);
             Lantern1.Crafting.Set("BlacksmithAltar"); // Set a crafting station requirement for the piece.
-            /*Lantern1.Extension.Set("BlacksmithAltar", 2);*/
             Lantern1.Snapshot();
 
-            // Format: new("AssetBundleName", "PrefabName", "FolderName");
             BuildPiece ArcaneStone = new("souls", "ArcaneStone");
 
             ArcaneStone.Name.English("Arcane Stone"); // Localize the name and description for the building piece for a language.
@@ -148,7 +149,6 @@ namespace PungusSouls
             ArcaneStone.RequiredItems.Add("TwinklingTitanite", 5, true);
             ArcaneStone.Category.Add(PieceManager.BuildPieceCategory.Crafting);
             ArcaneStone.Crafting.Set("BlacksmithAltar"); // Set a crafting station requirement for the piece.
-            /*ArcaneStone.Extension.Set("BlacksmithAltar", 2);*/
             ArcaneStone.Snapshot();
 
             BuildPiece NamelessStatue = new("souls", "NamelessStatue");
@@ -161,7 +161,6 @@ namespace PungusSouls
             NamelessStatue.RequiredItems.Add("TwinklingTitanite", 30, true);
             NamelessStatue.Category.Add(PieceManager.BuildPieceCategory.Crafting);
             NamelessStatue.Crafting.Set("BlacksmithAltar"); // Set a crafting station requirement for the piece.
-            /*NamelessStatue.Extension.Set("BlacksmithAltar", 2);*/
             NamelessStatue.Snapshot();
 
             BuildPiece Bonefire = new("souls", "Bonefire");
@@ -174,7 +173,6 @@ namespace PungusSouls
             Bonefire.RequiredItems.Add("TwinklingTitanite", 20, true);
             Bonefire.Category.Add(PieceManager.BuildPieceCategory.Crafting);
             Bonefire.Crafting.Set("BlacksmithAltar"); // Set a crafting station requirement for the piece.
-            /*Bonefire.Extension.Set("BlacksmithAltar", 2);*/
             Bonefire.Snapshot();
 
             #endregion
@@ -408,6 +406,7 @@ namespace PungusSouls
             HavelChest.RequiredUpgradeItems.Add("BlackMetal", 2);
 
             #endregion Armor
+            #region Weapons
             Item AbyssGreatsword = new("souls", "AbyssGreatsword", "assets");
             AbyssGreatsword.Name.English("Abyss Greatsword"); // You can use this to fix the display name in code
             AbyssGreatsword.Description.English("This greatsword belonged to Lord Gwyn's Knight Artorias, who fell to the Abyss. Swallowed by the Dark with its master, this sword is tainted by the Abyss, and now its strength reflects its wielder's humanity.");
@@ -998,11 +997,11 @@ namespace PungusSouls
             washingpole.RequiredUpgradeItems.Add("TwinklingTitanite", 2);
             washingpole.RequiredUpgradeItems.Add("Resin", 10);
             washingpole.RequiredUpgradeItems.Add("FineWood", 10);
-
+            #endregion
 
             #endregion
             #region SFX
-                GameObject sfx_Andre_bye1 = ItemManager.PrefabManager.RegisterPrefab("souls", "sfx_Andre_bye1");
+            GameObject sfx_Andre_bye1 = ItemManager.PrefabManager.RegisterPrefab("souls", "sfx_Andre_bye1");
                 GameObject sfx_Andre_greeting1 = ItemManager.PrefabManager.RegisterPrefab("souls", "sfx_Andre_greeting1");
                 GameObject sfx_Andre_talk1 = ItemManager.PrefabManager.RegisterPrefab("souls", "sfx_Andre_talk1");
                 GameObject firelinkshrine_sfx = ItemManager.PrefabManager.RegisterPrefab("souls", "firelinkshrine_sfx");
@@ -1031,7 +1030,7 @@ namespace PungusSouls
             firelinkshrine_sfx.GetComponentInChildren<AudioSource>().outputAudioMixerGroup =AudioMan.instance.;*/
 
             #endregion
-            #region Boss Weapons
+            #region Creature Attacks
 
             /*  Item AbyssGreatsword1 = new("souls", "AbyssGreatsword1", "assets");
                 AbyssGreatsword1.Configurable = Configurability.Disabled;
