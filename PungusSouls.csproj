@@ -123,6 +123,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClearAreas.cs" />
+    <Compile Include="Managers\EnvironmentManager.cs" />
     <Compile Include="Managers\CreatureManager.cs" />
     <Compile Include="Managers\ItemManager.cs" />
     <Compile Include="Managers\LocationManager.cs" />
@@ -136,7 +137,6 @@
     <Compile Include="VersionHandshake.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="assets\souls" />
     <EmbeddedResource Include="assets\shared" />
     <None Include="packages.config" />
   </ItemGroup>

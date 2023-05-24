@@ -108,7 +108,7 @@ namespace PungusSouls
 
             // Format: new("AssetBundleName", "PrefabName", "FolderName");
 
-            PiecePrefabManager.RegisterPrefab("souls", "BlacksmithAltar");         
+            PiecePrefabManager.RegisterPrefab("souls", "BlacksmithAltar");
 
             // Format: new("AssetBundleName", "PrefabName", "FolderName");
             BuildPiece Lanterny = new("souls", "Lantern");
@@ -1072,40 +1072,40 @@ namespace PungusSouls
                 Golem_Unarmed1.Configurable = Configurability.Disabled;
                 Item Golem_Unarmed2 = new("souls", "Golem_Unarmed2", "assets");
                 Golem_Unarmed2.Configurable = Configurability.Disabled;
-                ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "DragonGreatSword_Projectile", false);
+/*                ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "DragonGreatSword_Projectile", false);*/
                 ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Gwyn_SpawnFire", false);
                 ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "OdinFire1", false);
                 ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "GraveLord_AOE", false);
                 ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "MLGS_Projectile", false);
-/*                ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Golem_AOE", false);*/
+                ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Golem_AOE", false);
                 Item DragonSlayerGreatBow1 = new("souls", "DragonSlayerGreatBow1", "assets");
                 DragonSlayerGreatBow1.Configurable = Configurability.Disabled;
-                /*Item GreatLordGreatSword1 = new("souls", "GreatLordGreatSword1", "assets");
-                GreatLordGreatSword1.Configurable = Configurability.Disabled;
-                Item Gwyn_Kick = new("souls", "Gwyn_Kick", "assets");
-                Gwyn_Kick.Configurable = Configurability.Disabled;
-                Item GreatLordGreatSword2 = new("souls", "GreatLordGreatSword2", "assets");
-                GreatLordGreatSword2.Configurable = Configurability.Disabled;
-                Item GreatLordGreatSword3 = new("souls", "GreatLordGreatSword3", "assets");
-                GreatLordGreatSword3.Configurable = Configurability.Disabled;
-                Item GreatLordGreatSword4 = new("souls", "GreatLordGreatSword4", "assets");
-                GreatLordGreatSword4.Configurable = Configurability.Disabled;
-                Item DragonSlayerSpear1 = new("souls", "DragonSlayerSpear1", "assets");
-                DragonSlayerSpear1.Configurable = Configurability.Disabled;
-                Item DragonSlayerSpear2 = new("souls", "DragonSlayerSpear2", "assets");
-                DragonSlayerSpear2.Configurable = Configurability.Disabled;
-                Item DragonSlayerSpear3 = new("souls", "DragonSlayerSpear3", "assets");
-                DragonSlayerSpear3.Configurable = Configurability.Disabled;*/
-                 Item SilverKnightSpear1 = new("souls", "SilverKnightSpear1", "assets");
-                SilverKnightSpear1.Configurable = Configurability.Disabled;
-                Item SilverKnightSpear2 = new("souls", "SilverKnightSpear2", "assets");
-                SilverKnightSpear2.Configurable = Configurability.Disabled;
-                Item SilverKnightSword1 = new("souls", "SilverKnightSword1", "assets");
-                SilverKnightSword1.Configurable = Configurability.Disabled;
-                Item SilverKnightShield1 = new("souls", "SilverKnightShield1", "assets");
-                SilverKnightShield1.Configurable = Configurability.Disabled;
-    /*          Item dragon_spit_shotgun1 = new("souls", "dragon_spit_shotgun1", "assets");
-                dragon_spit_shotgun1.Configurable = Configurability.Disabled;*/
+            /*Item GreatLordGreatSword1 = new("souls", "GreatLordGreatSword1", "assets");
+            GreatLordGreatSword1.Configurable = Configurability.Disabled;
+            Item Gwyn_Kick = new("souls", "Gwyn_Kick", "assets");
+            Gwyn_Kick.Configurable = Configurability.Disabled;
+            Item GreatLordGreatSword2 = new("souls", "GreatLordGreatSword2", "assets");
+            GreatLordGreatSword2.Configurable = Configurability.Disabled;
+            Item GreatLordGreatSword3 = new("souls", "GreatLordGreatSword3", "assets");
+            GreatLordGreatSword3.Configurable = Configurability.Disabled;
+            Item GreatLordGreatSword4 = new("souls", "GreatLordGreatSword4", "assets");
+            GreatLordGreatSword4.Configurable = Configurability.Disabled;
+            Item DragonSlayerSpear1 = new("souls", "DragonSlayerSpear1", "assets");
+            DragonSlayerSpear1.Configurable = Configurability.Disabled;
+            Item DragonSlayerSpear2 = new("souls", "DragonSlayerSpear2", "assets");
+            DragonSlayerSpear2.Configurable = Configurability.Disabled;
+            Item DragonSlayerSpear3 = new("souls", "DragonSlayerSpear3", "assets");
+            DragonSlayerSpear3.Configurable = Configurability.Disabled;*/
+            /*Item SilverKnightSpear1 = new("souls", "SilverKnightSpear1", "assets");
+            SilverKnightSpear1.Configurable = Configurability.Disabled;
+            Item SilverKnightSpear2 = new("souls", "SilverKnightSpear2", "assets");
+            SilverKnightSpear2.Configurable = Configurability.Disabled;
+            Item SilverKnightSword1 = new("souls", "SilverKnightSword1", "assets");
+            SilverKnightSword1.Configurable = Configurability.Disabled;
+            Item SilverKnightShield1 = new("souls", "SilverKnightShield1", "assets");
+            SilverKnightShield1.Configurable = Configurability.Disabled;*/
+                Item dragon_spit_shotgun1 = new("souls", "dragon_spit_shotgun1", "assets");
+                dragon_spit_shotgun1.Configurable = Configurability.Disabled;
                 Item ChaosZweihander = new("souls", "ChaosZweihander", "assets");
                 ChaosZweihander.Configurable = Configurability.Disabled;
                 Item ChaosZweihander1 = new("souls", "ChaosZweihander1", "assets");
@@ -1122,28 +1122,30 @@ namespace PungusSouls
                 Seath_crystal_spawn.Configurable = Configurability.Disabled;
                 Item Seath_Slash = new("souls", "Seath_Slash", "assets");
                 Seath_Slash.Configurable = Configurability.Disabled;*/
-                /*Item Wyvern_Bite = new("souls", "Wyvern_Bite", "assets");
-                Wyvern_Bite.Configurable = Configurability.Disabled;*/
+                Item Wyvern_Bite = new("souls", "Wyvern_Bite", "assets");
+                Wyvern_Bite.Configurable = Configurability.Disabled;
 
-    /*          ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Seath_Beam_Projectile", false);
-                ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Seath_Fog", false);
-                ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Seath_SpawnCrystal", false);
-                */ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "BlackFlame_AOE", false);
+            /*          ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Seath_Beam_Projectile", false);
+                        ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Seath_Fog", false);
+                        ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Seath_SpawnCrystal", false);
+                        */
+                ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "BlackFlame_AOE", false);
                 ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "LightningSpear_Projectile", false);
-                /*ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "LightningSpear_Projectile1", false);
-                /*ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "dragon_lightning_projectile", false);*//*
-                ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Trident_AOE", false);
-                ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "DragonSlayer_bow_projectile", false);*/
+            /* ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "LightningSpear_Projectile1", false);*/
+                ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "dragon_lightning_projectile", false);
+                ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "WispAttack", false);
+                ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "WispAOE", false);
+                /*ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Trident_AOE", false);*/
                 /*PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "SK_Spawner", false);
-                PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "OrnsteinSpawner", false);
-                PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "BK_Spawner", false);*/
+                 PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "OrnsteinSpawner", false);
+                 PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "BK_Spawner", false);
                 /*PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "HollowSoldier", false);*/
                 /*PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "HollowSoldierSpawner", false);
-                PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "BlackKnight_Spawn", false);
-                PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Spawner_AsylumDemon", false);*/
+                 PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "BlackKnight_Spawn", false);
+                 PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Spawner_AsylumDemon", false);*/
                 /*PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Gwyn_SpawnFire", false);
-                PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "OdinFire1", false);
-                PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "DragonGreatSword_Projectile", false);*/
+                 PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "OdinFire1", false);
+                 PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "DragonGreatSword_Projectile", false);*/
 
             #endregion
             #region CreatureManager Example Code
@@ -1160,7 +1162,8 @@ namespace PungusSouls
                                        Artorias.Drops["Wood"].Amount = new CreatureManager.Range(1, 2);
                                        Artorias.Drops["Wood"].DropChance = 100f;
             */
-/*            Creature AsylumDemon = new("souls", "AsylumDemon")
+
+            Creature AsylumDemon = new("souls", "AsylumDemon")
             {
                 Biome = Heightmap.Biome.None,
                 GroupSize = new CreatureManager.Range(1, 2),
@@ -1170,10 +1173,10 @@ namespace PungusSouls
             };
             AsylumDemon.Localize().English("Asylum Demon");
             AsylumDemon.Drops["Wood"].Amount = new CreatureManager.Range(1, 2);
-            AsylumDemon.Drops["Wood"].DropChance = 100f;*/
+            AsylumDemon.Drops["Wood"].DropChance = 100f;
 
 
-              Creature CrystalGolem = new("souls", "CrystalGolem")
+            Creature CrystalGolem = new("souls", "CrystalGolem")
 
             {
                 Biome = Heightmap.Biome.AshLands,
@@ -1199,18 +1202,18 @@ namespace PungusSouls
             BlackKnight.Drops["TwinklingTitanite"].Amount = new CreatureManager.Range(1, 3);
             BlackKnight.Drops["TwinklingTitanite"].DropChance = 75f;
 
-            /*            Creature SilverKnight = new("souls", "SilverKnight")
-                        {
-                        Biome = Heightmap.Biome.Mountain,
-                        GroupSize = new CreatureManager.Range(1, 2),
-                        CheckSpawnInterval = 600,
-                        RequiredWeather = Weather.Rain | Weather.Fog,
-                        Maximum = 0,
-                         };
+            Creature SilverKnight = new("souls", "SilverKnight")
+            {
+                Biome = Heightmap.Biome.Mountain,
+                GroupSize = new CreatureManager.Range(1, 2),
+                CheckSpawnInterval = 600,
+                RequiredWeather = Weather.Rain | Weather.Fog,
+                Maximum = 0,
+            };
 
-                        SilverKnight.Localize().English("Silver Knight");
-                        SilverKnight.Drops["Wood"].Amount = new CreatureManager.Range(1, 2);
-                        SilverKnight.Drops["Wood"].DropChance = 100f;*/
+            SilverKnight.Localize().English("Silver Knight");
+            SilverKnight.Drops["Wood"].Amount = new CreatureManager.Range(1, 2);
+            SilverKnight.Drops["Wood"].DropChance = 100f;
 
             /*            Creature DragonSlayerOrnstein = new("souls", "DragonSlayerOrnstein")
                          {
@@ -1236,6 +1239,20 @@ namespace PungusSouls
                         Gwyn.Drops["Wood"].Amount = new CreatureManager.Range(1, 2);
                         Gwyn.Drops["Wood"].DropChance = 100f;*/
 
+
+            Creature FangBoar = new("souls", "FangBoar")
+
+            {
+                RequiredGlobalKey = GlobalKey.KilledBonemass,
+                Biome = Heightmap.Biome.Meadows,
+                GroupSize = new CreatureManager.Range(1, 2),
+                CheckSpawnInterval = 12000,
+                Maximum = 1
+            };
+
+            FangBoar.Localize().English("Fang Boar");
+            FangBoar.Drops["TwinklingTitanite"].Amount = new CreatureManager.Range(2, 4);
+            FangBoar.Drops["TwinklingTitanite"].DropChance = 75f;
 
             Creature GiantDad = new("souls", "GiantDad")
 
@@ -1267,6 +1284,18 @@ namespace PungusSouls
             GiantMushroom.Drops["TwinklingTitanite"].DropChance = 75f;
             GiantMushroom.Drops["Mushroom"].Amount = new CreatureManager.Range(1, 3);
             GiantMushroom.Drops["Mushroom"].DropChance = 75f;
+
+            Creature GraveWisp = new("souls", "GraveWisp")
+
+            {
+                RequiredGlobalKey = GlobalKey.KilledBonemass,
+                Biome = Heightmap.Biome.BlackForest | Heightmap.Biome.Meadows,
+                GroupSize = new CreatureManager.Range(1, 2),
+                CheckSpawnInterval = 1600,
+                Maximum = 2
+            };
+
+            GraveWisp.Localize().English("Grave Wisp");
 
             Creature HollowSoldier = new("souls", "HollowSoldier")
 
@@ -1318,8 +1347,8 @@ namespace PungusSouls
             TaurusDemon.Drops["TwinklingTitanite"].DropChance = 75f;
 
 
-/*            Creature Wyvern = new("souls", "Wyvern")
- *            
+           Creature Wyvern = new("souls", "Wyvern")
+             
             {
                 RequiredGlobalKey = GlobalKey.KilledModer,
                 Biome = Heightmap.Biome.Mountain,
@@ -1329,13 +1358,13 @@ namespace PungusSouls
             };
             Wyvern.Localize().English("Wyvern");
             Wyvern.Drops["TwinklingTitanite"].Amount = new CreatureManager.Range(2, 3);
-            Wyvern.Drops["TwinklingTitanite"].DropChance = 100f; */
+            Wyvern.Drops["TwinklingTitanite"].DropChance = 100f; 
 
             #endregion
 
 
             Assembly assembly = Assembly.GetExecutingAssembly();
-            _harmony.PatchAll(assembly);
+            _harmony.PatchAll();
             SetupWatcher();
         }
 
@@ -1343,7 +1372,7 @@ namespace PungusSouls
         {
             Config.Save();
         }
-            private void SetupWatcher()
+        private void SetupWatcher()
         {
             FileSystemWatcher watcher = new(Paths.ConfigPath, ConfigFileName);
             watcher.Changed += ReadConfigValues;
@@ -1353,7 +1382,6 @@ namespace PungusSouls
             watcher.SynchronizingObject = ThreadingHelper.SynchronizingObject;
             watcher.EnableRaisingEvents = true;
         }
-
         private void ReadConfigValues(object sender, FileSystemEventArgs e)
         {
             if (!File.Exists(ConfigFileFullPath)) return;

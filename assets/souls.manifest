@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2005714906
+CRC: 34259782
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 6a3029dd96acf5566ace854bb65f69b5
+    Hash: eb17c90023ee6bacee5acb36b2d13278
   TypeTreeHash:
     serializedVersion: 2
-    Hash: f3162f899092b5a3a809911384c54b22
+    Hash: 04765676e302a3119be366c6285ecfca
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -106,6 +106,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: -391423902, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
+  Script: {fileID: 933876685, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
   Script: {fileID: 269728403, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
   Script: {fileID: -1266444067, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
@@ -123,6 +125,8 @@ ClassTypes:
   Script: {fileID: -585565762, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
   Script: {fileID: 829610738, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
+  Script: {fileID: -116317528, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
   Script: {fileID: -1031772151, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
 - Class: 114
@@ -215,6 +219,8 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: assembly_valheim
   ClassName: EffectList/EffectData
 - AssemblyName: assembly_valheim
+  ClassName: EnvSetup
+- AssemblyName: assembly_valheim
   ClassName: FootStep/StepEffect
 - AssemblyName: assembly_valheim
   ClassName: HitData/DamageModPair
@@ -240,132 +246,142 @@ Assets:
 - Assets/test/DS - silver knight/BlackKnightUGS1.prefab
 - Assets/test/Taurus Demon/sfx_taurus_weaponhit1.prefab
 - Assets/test/Dark Souls - Giant Dad/BlackFlame.prefab
-- Assets/wep/DarkSword.prefab
+- Assets/1Proj/wep/DarkSword.prefab
 - Assets/test/DS - silver knight/BlackKnightHalberd2.prefab
 - Assets/test/Andre/sfx_Andre_greeting1.prefab
 - Assets/test/Crystal Golem/Golem_Unarmed2.prefab
 - Assets/test/Andre/sfx_Andre_bye1.prefab
-- Assets/wep/Silver Knight Spear/SilverKnightSpear2.prefab
+- Assets/1Proj/wep/Silver Knight Spear/SilverKnightSpear2.prefab
 - Assets/test/BlackKnight.prefab
-- Assets/wep/Glordsword.prefab
-- Assets/wep/dragontooth.prefab
+- Assets/1Proj/wep/Glordsword.prefab
+- Assets/1Proj/wep/dragontooth.prefab
 - Assets/test/DS - silver knight/DragonSlayerGreatBow1.prefab
-- Assets/wep/SunlightSword.prefab
+- Assets/1Proj/wep/SunlightSword.prefab
 - Assets/test/BlackKnight ds3/FX_BlackKnight_Death.prefab
 - Assets/test/Crystal Golem/Golem_Unarmed1.prefab
-- Assets/wep/Silver Knight Shield/SilverKnightShield1.prefab
-- Assets/wep/Dark Silver Tracer/GoldSilverTracers.prefab
-- Assets/wep/Zweihander/ChaosZweihander1.prefab
+- Assets/test/Wisp/WispAttack.prefab
+- Assets/1Proj/wep/Dark Silver Tracer/GoldSilverTracers.prefab
+- Assets/1Proj/wep/Silver Knight Shield/SilverKnightShield1.prefab
+- Assets/1Proj/wep/Zweihander/ChaosZweihander1.prefab
+- Assets/PrefabInstance/FogClouds.prefab
 - Assets/test/DS - silver knight/BlackKnightGreatAxe2.prefab
 - Assets/test/Crystal Golem/CrystalGolem.prefab
-- Assets/wep/DragonSlayerSpear.prefab
-- Assets/wep/Dragonslayer Greatbow/crosshair_bow.prefab
+- Assets/1Proj/wep/DragonSlayerSpear.prefab
+- Assets/1Proj/wep/Dragonslayer Greatbow/crosshair_bow.prefab
 - Assets/test/Andre/sfx_Andre_talk1.prefab
 - Assets/test/bonfire/Bonefire.prefab
-- Assets/wep/Artorias Set/ArtHelm.prefab
-- Assets/wep/Darkmoon Bow/DarkMoonBow.prefab
+- Assets/1Proj/wep/Artorias Set/ArtHelm.prefab
+- Assets/1Proj/wep/Darkmoon Bow/DarkMoonBow.prefab
 - Assets/test/DS - silver knight/BlackKnightGreatAxe1.prefab
-- Assets/wep/lantern.prefab
-- Assets/wep/Dark Silver Tracer/DarkSilverTracer.prefab
-- Assets/wep/Great Lord Greatsword/GreatLordGreatSword.prefab
+- Assets/1Proj/wep/lantern.prefab
+- Assets/1Proj/wep/Dark Silver Tracer/DarkSilverTracer.prefab
+- Assets/1Proj/wep/Great Lord Greatsword/GreatLordGreatSword.prefab
 - Assets/1Proj/export/New Prefab1.prefab
-- Assets/wep/havel set/HavelHelm.prefab
-- Assets/wep/Channeler's Trident/ChannelerTrident.prefab
+- Assets/1Proj/wep/havel set/HavelHelm.prefab
+- Assets/1Proj/wep/Channeler's Trident/ChannelerTrident.prefab
 - Assets/test/LightningSpear_Projectile.prefab
-- Assets/wep/Dragonslayer Greatbow/DragonSlayerGreatBow.prefab
-- Assets/wep/Silver Knight Straight Sword/SilverKnightSword1.prefab
-- Assets/wep/Shotel/Shotel.prefab
+- Assets/1Proj/wep/Dragonslayer Greatbow/DragonSlayerGreatBow.prefab
+- Assets/1Proj/wep/Silver Knight Straight Sword/SilverKnightSword1.prefab
+- Assets/1Proj/wep/Shotel/Shotel.prefab
 - Assets/test/Taurus Demon/FX_Taurus_Hit.prefab
 - Assets/test/Crystal Golem/Golem_Unarmed3.prefab
 - Assets/test/Taurus Demon/SFX_Taurus_Alert1.prefab
 - Assets/1Proj/export/firelinkshrine_sfx.prefab
-- Assets/wep/Quelaag's Furysword/FurySword.prefab
-- Assets/wep/Moonlight Butterfly Horn/MLHorn.prefab
-- Assets/wep/Avelyn/Avelyn.prefab
+- Assets/1Proj/wep/Quelaag's Furysword/FurySword.prefab
+- Assets/1Proj/wep/Moonlight Butterfly Horn/MLHorn.prefab
+- Assets/1Proj/wep/Avelyn/Avelyn.prefab
 - Assets/test/Asylum Demon/DemonGreatHammerSlam.prefab
 - Assets/1Proj/export/New Terrain1.asset
-- Assets/wep/Abyss Greatsword/AbyssGreatsword.prefab
-- Assets/wep/Murakumo/Murakumo.prefab
-- Assets/wep/MLgreatsword.prefab
+- Assets/1Proj/wep/Abyss Greatsword/AbyssGreatsword.prefab
+- Assets/1Proj/wep/Murakumo/Murakumo.prefab
+- Assets/1Proj/wep/MLgreatsword.prefab
 - Assets/test/Hollow Soldier/SFX_Hollow_Idle.prefab
-- Assets/wep/Greatsword of Artorias (Cursed)/CursedGreatsword.prefab
+- Assets/1Proj/wep/Greatsword of Artorias (Cursed)/CursedGreatsword.prefab
+- Assets/test/Blue wyvern xps/dragon_lightning_projectile.prefab
 - Assets/test/Altar of Sunlight/Nameless king statue/NamelessStatue.prefab
 - Assets/test/Gwyn.prefab
-- Assets/wep/havel set/HavelLegs.prefab
+- Assets/1Proj/wep/havel set/HavelLegs.prefab
 - Assets/test/Taurus Demon/TaurusDemon.prefab
-- Assets/wep/Washing Pole/washingpole.prefab
-- Assets/wep/Artorias Set/ArtChest.prefab
-- Assets/wep/GraveLord_AOE.prefab
+- Assets/1Proj/wep/Washing Pole/washingpole.prefab
+- Assets/1Proj/wep/Artorias Set/ArtChest.prefab
+- Assets/test/Blue wyvern xps/dragon_coldbreath1.prefab
+- Assets/1Proj/wep/GraveLord_AOE.prefab
+- Assets/test/Blue wyvern xps/dragon_spit_shotgun1.prefab
 - Assets/test/Blue wyvern xps/Wyvern.prefab
 - Assets/1Proj/export/BlankEnv.prefab
-- Assets/wep/havel set/HavelChest.prefab
+- Assets/1Proj/wep/havel set/HavelChest.prefab
 - Assets/test/Mushroom/GiantMushroom.prefab
 - Assets/test/Taurus Demon/sfx_taurus_attack1.prefab
+- Assets/1Proj/wep/Zweihander/ChaosZweihander.prefab
 - Assets/MonoBehaviour/SetEffect_HavelSet.asset
-- Assets/wep/Zweihander/ChaosZweihander.prefab
-- Assets/wep/Havel's Greatshield/HavelGreatShield.prefab
+- Assets/1Proj/wep/Havel's Greatshield/HavelGreatShield.prefab
 - Assets/MonoBehaviour/SE_GrassShield.asset
-- Assets/wep/Mask of the Father/MaskOfFather.prefab
-- Assets/wep/Black Knight Shield/BlackKnightShield.prefab
+- Assets/1Proj/wep/Mask of the Father/MaskOfFather.prefab
+- Assets/1Proj/wep/Black Knight Shield/BlackKnightShield.prefab
+- Assets/test/Wisp/WispAOE.prefab
+- Assets/test/Fang Boar/FangBoar_Attack.prefab
+- Assets/1Proj/wep/Drake Sword/DrakeSword.prefab
 - Assets/creatures/Trident_AOE.prefab
-- Assets/wep/Drake Sword/DrakeSword.prefab
-- Assets/wep/Dragon King Greataxe/DragonKingGreatAxe.prefab
-- Assets/wep/grasscrestshield/GrassCrestShield.prefab
+- Assets/1Proj/wep/Dragon King Greataxe/DragonKingGreatAxe.prefab
+- Assets/1Proj/wep/grasscrestshield/GrassCrestShield.prefab
 - Assets/PrefabInstance/loot_chest_stone_new.prefab
-- Assets/wep/BlackKnightUGS.prefab
-- Assets/wep/Dragon Greatsword/DragonGreatSword.prefab
+- Assets/1Proj/wep/BlackKnightUGS.prefab
+- Assets/1Proj/wep/Dragon Greatsword/DragonGreatSword.prefab
 - Assets/test/Taurus Demon/TaurusWep.prefab
 - Assets/test/Asylum Demon/DemonGreatHammer1.prefab
 - Assets/Mega Fantasy Props Pack/Prefabs/Storage/chest3.prefab
-- Assets/wep/Channeler's Trident/ProjectileTrident.prefab
+- Assets/1Proj/wep/Channeler's Trident/ProjectileTrident.prefab
 - Assets/test/Taurus Demon/FX_Taurus_Dead.prefab
 - Assets/PrefabInstance/MushroomUnarmed.prefab
-- Assets/wep/Smough's Hammer/SmoughHammer.prefab
-- Assets/wep/Black Iron Greatshield/BlackIronShield.prefab
-- Assets/wep/Gold Tracer/GoldTracer.prefab
+- Assets/1Proj/wep/Smough's Hammer/SmoughHammer.prefab
+- Assets/1Proj/wep/Black Iron Greatshield/BlackIronShield.prefab
+- Assets/1Proj/wep/Gold Tracer/GoldTracer.prefab
 - Assets/test/Taurus Demon/SFX_Taurus_Idle1.prefab
 - Assets/test/DS - silver knight/BlackKnightHalberd3.prefab
-- Assets/wep/Silver Knight Spear/SilverKnightSpear1.prefab
+- Assets/test/Blue wyvern xps/Wyvern_Bite.prefab
+- Assets/1Proj/wep/Silver Knight Spear/SilverKnightSpear1.prefab
 - Assets/test/Dark Souls - Giant Dad/BlackFlame_AOE.prefab
 - Assets/test/DS - silver knight/BlackKnightHalberd1.prefab
 - Assets/MonoBehaviour/SetEffect_ArtoriasSet.asset
-- Assets/wep/sunshield1.prefab
-- Assets/wep/Artorias Set/ArtLegs.prefab
-- Assets/wep/Black Knight Halberd/BlackKnightHalberd.prefab
-- Assets/wep/Artorias GreatShield/ArtoriasGreatshield.prefab
+- Assets/1Proj/wep/sunshield1.prefab
+- Assets/1Proj/wep/Artorias Set/ArtLegs.prefab
+- Assets/1Proj/wep/Black Knight Halberd/BlackKnightHalberd.prefab
+- Assets/1Proj/wep/Artorias GreatShield/ArtoriasGreatshield.prefab
 - Assets/test/Asylum Demon/DemonGreatHammer2.prefab
 - Assets/1Proj/Gwyn_SpawnFire.prefab
 - Assets/1Proj/OdinFire1.prefab
-- Assets/wep/Black Knight Sword/BlackKnightSword.prefab
-- Assets/wep/Priscilla's Dagger/Lifesteal.asset
+- Assets/1Proj/wep/Black Knight Sword/BlackKnightSword.prefab
+- Assets/1Proj/wep/Priscilla's Dagger/Lifesteal.asset
 - Assets/test/Asylum Demon/AsylumDemon.prefab
 - Assets/test/Crystal Golem/Golem_Unarmed4.prefab
-- Assets/wep/SunArmor/SunChest.prefab
+- Assets/1Proj/wep/SunArmor/SunChest.prefab
 - Assets/1Proj/DragonGreatSword_Projectile.prefab
 - Assets/test/Hollow Soldier/sfx_Hollow_Attack.prefab
 - Assets/test/Lantern/Lantern1.prefab
 - Assets/test/Hollow Soldier/SFX_Hollow_Alert.prefab
-- Assets/wep/BlackKnightGreatAxe/BlackKnightGreatAxe.prefab
-- Assets/wep/ArcaneStone.prefab
-- Assets/wep/SunArmor/SunLegs.prefab
-- Assets/wep/Channeler's Trident/TridentBuff.asset
-- Assets/wep/MLGS/MLGS_Projectile.prefab
+- Assets/1Proj/wep/BlackKnightGreatAxe/BlackKnightGreatAxe.prefab
+- Assets/test/Fang Boar/FangBoar.prefab
+- Assets/1Proj/wep/ArcaneStone.prefab
+- Assets/1Proj/wep/SunArmor/SunLegs.prefab
+- Assets/1Proj/wep/Channeler's Trident/TridentBuff.asset
+- Assets/1Proj/wep/MLGS/MLGS_Projectile.prefab
 - Assets/1Proj/export/FireLinkShrine.prefab
 - Assets/test/Hollow Soldier/HollowSoldier.prefab
 - Assets/test/DS - silver knight/BlackKnightUGS2.prefab
-- Assets/wep/Demon's Great Hammer/DemonGreatHammer.prefab
-- Assets/wep/ArtGS.prefab
-- Assets/wep/Priscilla's Dagger/DaggerPrisc.prefab
+- Assets/1Proj/wep/Demon's Great Hammer/DemonGreatHammer.prefab
+- Assets/1Proj/wep/ArtGS.prefab
+- Assets/1Proj/wep/Priscilla's Dagger/DaggerPrisc.prefab
 - Assets/test/Taurus Demon/TaurusWep2.prefab
-- Assets/wep/Manus Catalyst/ManusCatalyst.prefab
+- Assets/1Proj/wep/Manus Catalyst/ManusCatalyst.prefab
 - Assets/test/Taurus Demon/TaurusWep1.prefab
 - Assets/test/Andre/BlacksmithAltar.prefab
 - Assets/test/DS - silver knight/SilverKnight.prefab
 - Assets/test/Dark Souls - Giant Dad/Giantdad.prefab
-- Assets/wep/SunArmor/SunHelm.prefab
-- Assets/wep/Beatrice's Catalyst/StaffWood.prefab
-- Assets/wep/Gargoyle Tail Axe/GargoyleAxe.prefab
-- Assets/wep/Greatsword/BerserkGreatsword.prefab
+- Assets/1Proj/wep/SunArmor/SunHelm.prefab
+- Assets/test/Wisp/GraveWisp.prefab
+- Assets/1Proj/wep/Beatrice's Catalyst/StaffWood.prefab
+- Assets/1Proj/wep/Gargoyle Tail Axe/GargoyleAxe.prefab
+- Assets/1Proj/wep/Greatsword/BerserkGreatsword.prefab
 - Assets/test/Ornstein the Dragonslayer/DragonSlayerOrnstein.prefab
 - Assets/test/Crystal Golem/Golem_AOE.prefab
 Dependencies:
