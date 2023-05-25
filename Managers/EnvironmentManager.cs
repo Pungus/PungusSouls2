@@ -18,7 +18,7 @@ namespace PungusSouls
                 if (clearCloudsCopy == null)
                     foreach (var env in __instance.m_environments)
                     {
-                        if (env.m_name == "clear")
+                        if (env.m_name == "Clear")
                             {
                                 clearCloudsCopy = Object.Instantiate(env.m_psystems[0]);
                                 newEnv.m_psystems = new GameObject[] { clearCloudsCopy };

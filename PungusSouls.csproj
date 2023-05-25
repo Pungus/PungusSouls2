@@ -138,6 +138,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="assets\shared" />
+    <EmbeddedResource Include="assets\souls" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

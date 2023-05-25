@@ -1071,38 +1071,32 @@ namespace PungusSouls
                 Golem_Unarmed1.Configurable = Configurability.Disabled;
                 Item Golem_Unarmed2 = new("souls", "Golem_Unarmed2", "assets");
                 Golem_Unarmed2.Configurable = Configurability.Disabled;
-/*                ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "DragonGreatSword_Projectile", false);*/
-                ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Gwyn_SpawnFire", false);
-                ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "OdinFire1", false);
-                ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "GraveLord_AOE", false);
-                ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "MLGS_Projectile", false);
-                ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Golem_AOE", false);
                 Item DragonSlayerGreatBow1 = new("souls", "DragonSlayerGreatBow1", "assets");
                 DragonSlayerGreatBow1.Configurable = Configurability.Disabled;
-            /*Item GreatLordGreatSword1 = new("souls", "GreatLordGreatSword1", "assets");
-            GreatLordGreatSword1.Configurable = Configurability.Disabled;
-            Item Gwyn_Kick = new("souls", "Gwyn_Kick", "assets");
-            Gwyn_Kick.Configurable = Configurability.Disabled;
-            Item GreatLordGreatSword2 = new("souls", "GreatLordGreatSword2", "assets");
-            GreatLordGreatSword2.Configurable = Configurability.Disabled;
-            Item GreatLordGreatSword3 = new("souls", "GreatLordGreatSword3", "assets");
-            GreatLordGreatSword3.Configurable = Configurability.Disabled;
-            Item GreatLordGreatSword4 = new("souls", "GreatLordGreatSword4", "assets");
-            GreatLordGreatSword4.Configurable = Configurability.Disabled;
-            Item DragonSlayerSpear1 = new("souls", "DragonSlayerSpear1", "assets");
-            DragonSlayerSpear1.Configurable = Configurability.Disabled;
-            Item DragonSlayerSpear2 = new("souls", "DragonSlayerSpear2", "assets");
-            DragonSlayerSpear2.Configurable = Configurability.Disabled;
-            Item DragonSlayerSpear3 = new("souls", "DragonSlayerSpear3", "assets");
-            DragonSlayerSpear3.Configurable = Configurability.Disabled;*/
-            /*Item SilverKnightSpear1 = new("souls", "SilverKnightSpear1", "assets");
-            SilverKnightSpear1.Configurable = Configurability.Disabled;
-            Item SilverKnightSpear2 = new("souls", "SilverKnightSpear2", "assets");
-            SilverKnightSpear2.Configurable = Configurability.Disabled;
-            Item SilverKnightSword1 = new("souls", "SilverKnightSword1", "assets");
-            SilverKnightSword1.Configurable = Configurability.Disabled;
-            Item SilverKnightShield1 = new("souls", "SilverKnightShield1", "assets");
-            SilverKnightShield1.Configurable = Configurability.Disabled;*/
+            /*  Item GreatLordGreatSword1 = new("souls", "GreatLordGreatSword1", "assets");
+                GreatLordGreatSword1.Configurable = Configurability.Disabled;
+                Item Gwyn_Kick = new("souls", "Gwyn_Kick", "assets");
+                Gwyn_Kick.Configurable = Configurability.Disabled;
+                Item GreatLordGreatSword2 = new("souls", "GreatLordGreatSword2", "assets");
+                GreatLordGreatSword2.Configurable = Configurability.Disabled;
+                Item GreatLordGreatSword3 = new("souls", "GreatLordGreatSword3", "assets");
+                GreatLordGreatSword3.Configurable = Configurability.Disabled;
+                Item GreatLordGreatSword4 = new("souls", "GreatLordGreatSword4", "assets");
+                GreatLordGreatSword4.Configurable = Configurability.Disabled;
+                Item DragonSlayerSpear1 = new("souls", "DragonSlayerSpear1", "assets");
+                DragonSlayerSpear1.Configurable = Configurability.Disabled;
+                Item DragonSlayerSpear2 = new("souls", "DragonSlayerSpear2", "assets");
+                DragonSlayerSpear2.Configurable = Configurability.Disabled;
+                Item DragonSlayerSpear3 = new("souls", "DragonSlayerSpear3", "assets");
+                DragonSlayerSpear3.Configurable = Configurability.Disabled;*/
+                /*Item SilverKnightSpear1 = new("souls", "SilverKnightSpear1", "assets");
+                SilverKnightSpear1.Configurable = Configurability.Disabled;
+                Item SilverKnightSpear2 = new("souls", "SilverKnightSpear2", "assets");
+                SilverKnightSpear2.Configurable = Configurability.Disabled;
+                Item SilverKnightSword1 = new("souls", "SilverKnightSword1", "assets");
+                SilverKnightSword1.Configurable = Configurability.Disabled;
+                Item SilverKnightShield1 = new("souls", "SilverKnightShield1", "assets");
+                SilverKnightShield1.Configurable = Configurability.Disabled;*/
                 Item dragon_spit_shotgun1 = new("souls", "dragon_spit_shotgun1", "assets");
                 dragon_spit_shotgun1.Configurable = Configurability.Disabled;
                 Item ChaosZweihander = new("souls", "ChaosZweihander", "assets");
@@ -1111,6 +1105,8 @@ namespace PungusSouls
                 ChaosZweihander1.Configurable = Configurability.Disabled;
                 Item BlackFlame = new("souls", "BlackFlame", "assets");
                 BlackFlame.Configurable = Configurability.Disabled;
+                Item FangBoatAttack = new("souls", "FangBoar_Attack", "assets");
+                FangBoatAttack.Configurable = Configurability.Disabled;
                 Item GrassCrestShield1 = new("souls", "GrassCrestShield1", "assets");
                 GrassCrestShield1.Configurable = Configurability.Disabled;
                 /*Item Seath_AOE = new("souls", "Seath_AOE", "assets");
@@ -1123,28 +1119,23 @@ namespace PungusSouls
                 Seath_Slash.Configurable = Configurability.Disabled;*/
                 Item Wyvern_Bite = new("souls", "Wyvern_Bite", "assets");
                 Wyvern_Bite.Configurable = Configurability.Disabled;
+                Item WispAttack = new("souls", "WispAttack", "assets");
+                WispAttack.Configurable = Configurability.Disabled;
 
-            /*          ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Seath_Beam_Projectile", false);
-                        ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Seath_Fog", false);
-                        ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Seath_SpawnCrystal", false);
-                        */
+    /*          ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Seath_Beam_Projectile", false);
+                ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Seath_Fog", false);
+                ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Seath_SpawnCrystal", false);
+                */
                 ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "BlackFlame_AOE", false);
                 ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "LightningSpear_Projectile", false);
-            /* ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "LightningSpear_Projectile1", false);*/
                 ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "dragon_lightning_projectile", false);
-                ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "WispAttack", false);
                 ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "WispAOE", false);
-                /*ItemManager.PrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Trident_AOE", false);*/
                 /*PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "SK_Spawner", false);
                  PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "OrnsteinSpawner", false);
                  PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "BK_Spawner", false);
-                /*PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "HollowSoldier", false);*/
                 /*PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "HollowSoldierSpawner", false);
                  PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "BlackKnight_Spawn", false);
                  PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Spawner_AsylumDemon", false);*/
-                /*PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "Gwyn_SpawnFire", false);
-                 PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "OdinFire1", false);
-                 PiecePrefabManager.RegisterPrefab(PrefabManager.RegisterAssetBundle("souls"), "DragonGreatSword_Projectile", false);*/
 
             #endregion
             #region CreatureManager Example Code
